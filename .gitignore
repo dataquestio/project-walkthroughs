@@ -143,3 +143,4 @@ dmypy.json
 cython_debug/
 *Live.ipynb
 live/
+*.png
