@@ -3,6 +3,8 @@
 .idea
 .DS_Store
 *.json.gz
+goodreads_interactions.csv
+book_id_map.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
