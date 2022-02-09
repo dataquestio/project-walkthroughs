@@ -2,6 +2,7 @@
 .ipynb_checkpoints
 .idea
 .DS_Store
+*.json.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
