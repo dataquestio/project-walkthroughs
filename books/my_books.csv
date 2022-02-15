@@ -1,660 +1,534 @@
-,user_id,book_id,rating
-0,-1,2517439,5
-1,-1,113576,5
-2,-1,35100,5
-3,-1,228221,5
-4,-1,128717,5
-5,-1,17662739,5
-6,-1,356824,5
-7,-1,12125412,5
-8,-1,139069,5
-9,-1,35921,5
-10,-1,76680,5
-11,-1,1898,5
-12,-1,5096865,5
-13,-1,228665,5
-14,-1,465739,5
-15,-1,11609409,5
-16,-1,393033,5
-17,-1,437143,5
-18,-1,18949861,5
-19,-1,2913377,5
-20,-1,1215032,5
-21,-1,883438,5
-22,-1,5578108,5
-23,-1,128029,5
-24,-1,77203,5
-25,-1,5439,5
-26,-1,1685995,5
-27,-1,6448772,5
-28,-1,6792458,5
-29,-1,12609433,5
-30,-1,25451264,5
-31,-1,13372977,5
-32,-1,18505792,5
-33,-1,16115612,5
-34,-1,18635622,5
-35,-1,18693884,5
-36,-1,21535271,5
-37,-1,23168817,5
-38,-1,26156469,5
-39,-1,27071490,5
-40,-1,29496076,5
-41,-1,481335,5
-42,-1,18242950,5
-43,-1,6068557,5
-44,-1,1993860,4
-45,-1,8141748,4
-46,-1,61906,4
-47,-1,61916,4
-48,-1,77735,4
-49,-1,180463,4
-50,-1,10669,4
-51,-1,18635622,4
-52,-1,474072,4
-53,-1,21343,4
-54,-1,22435,4
-55,-1,25320,4
-56,-1,95784,4
-57,-1,32081,4
-58,-1,8136985,4
-59,-1,40992,4
-60,-1,77507,4
-61,-1,6336986,4
-62,-1,45258,4
-63,-1,92057,4
-64,-1,6963184,4
-65,-1,21343,4
-66,-1,30316148,4
-67,-1,52397,4
-68,-1,61642,4
-69,-1,29580,4
-70,-1,77505,4
-71,-1,61916,4
-72,-1,2723,4
-73,-1,77735,4
-74,-1,100467,4
-75,-1,112292,4
-76,-1,116446,4
-77,-1,118565,4
-78,-1,33635374,4
-79,-1,4122,4
-80,-1,1281235,4
-81,-1,174501,4
-82,-1,25300956,4
-83,-1,34497,4
-84,-1,223380,4
-85,-1,234503,4
-86,-1,248787,4
-87,-1,60932,4
-88,-1,978920,4
-89,-1,66678,4
-90,-1,324750,4
-91,-1,477380,4
-92,-1,23357063,4
-93,-1,167847,4
-94,-1,113934,4
-95,-1,7996,4
-96,-1,11357844,4
-97,-1,28165439,4
-98,-1,20878,4
-99,-1,113224,4
-100,-1,18163529,4
-101,-1,34506,4
-102,-1,240617,4
-103,-1,102327,4
-104,-1,362550,4
-105,-1,9447906,4
-106,-1,1635,4
-107,-1,25320,4
-108,-1,45245,4
-109,-1,7996,4
-110,-1,857043,4
-111,-1,866136,4
-112,-1,285451,4
-113,-1,11472,4
-114,-1,350,4
-115,-1,8302746,4
-116,-1,419083,4
-117,-1,1001524,4
-118,-1,569978,4
-119,-1,781182,4
-120,-1,2372,4
-121,-1,475,4
-122,-1,16690,4
-123,-1,139373,4
-124,-1,1107296,4
-125,-1,47109,4
-126,-1,233679,4
-127,-1,19785919,4
-128,-1,79909,4
-129,-1,8837,4
-130,-1,12661,4
-131,-1,29125925,4
-132,-1,618221,4
-133,-1,12856474,4
-134,-1,76740,4
-135,-1,77711,4
-136,-1,11354791,4
-137,-1,873486,4
-138,-1,226004,4
-139,-1,3760025,4
-140,-1,239796,4
-141,-1,10240738,4
-142,-1,45260,4
-143,-1,333867,4
-144,-1,767171,4
-145,-1,409207,4
-146,-1,18630,4
-147,-1,11864578,4
-148,-1,386374,4
-149,-1,29581,4
-150,-1,2732977,4
-151,-1,149267,4
-152,-1,77735,4
-153,-1,1768603,4
-154,-1,846092,4
-155,-1,61916,4
-156,-1,224379,4
-157,-1,2820512,4
-158,-1,66717,4
-159,-1,386372,4
-160,-1,6794,4
-161,-1,77565,4
-162,-1,112537,4
-163,-1,1894269,4
-164,-1,77736,4
-165,-1,1166599,4
-166,-1,306090,4
-167,-1,292327,4
-168,-1,1126719,4
-169,-1,399415,4
-170,-1,40445,4
-171,-1,127455,4
-172,-1,1839,4
-173,-1,50027,4
-174,-1,3869,4
-175,-1,7613,4
-176,-1,21343,4
-177,-1,1260131,4
-178,-1,49116,4
-179,-1,6391993,4
-180,-1,3363015,4
-181,-1,1107306,4
-182,-1,3636,4
-183,-1,10176,4
-184,-1,528366,4
-185,-1,528362,4
-186,-1,5064,4
-187,-1,20957438,4
-188,-1,136251,4
-189,-1,231622,4
-190,-1,655707,4
-191,-1,25318,4
-192,-1,46756,4
-193,-1,1430426,4
-194,-1,19400,4
-195,-1,4952,4
-196,-1,8117586,4
-197,-1,61916,4
-198,-1,5325066,4
-199,-1,5043,4
-200,-1,6424171,4
-201,-1,3437328,4
-202,-1,6466554,4
-203,-1,3896708,4
-204,-1,13418329,4
-205,-1,8683527,4
-206,-1,9344385,4
-207,-1,6178648,4
-208,-1,479561,4
-209,-1,6736971,4
-210,-1,3428935,4
-211,-1,7137787,4
-212,-1,6569735,4
-213,-1,8253920,4
-214,-1,7141642,4
-215,-1,30237009,4
-216,-1,7315573,4
-217,-1,149847,4
-218,-1,9300768,4
-219,-1,8442457,4
-220,-1,8171378,4
-221,-1,8855321,4
-222,-1,114217,4
-223,-1,13707738,4
-224,-1,12382340,4
-225,-1,12099136,4
-226,-1,17332218,4
-227,-1,11865558,4
-228,-1,12891107,4
-229,-1,285591,4
-230,-1,18663149,4
-231,-1,13153693,4
-232,-1,17702284,4
-233,-1,15034320,4
-234,-1,32424,4
-235,-1,5061675,4
-236,-1,25852860,4
-237,-1,19694475,4
-238,-1,17255186,4
-239,-1,17306293,4
-240,-1,17333324,4
-241,-1,17568801,4
-242,-1,17554595,4
-243,-1,17910124,4
-244,-1,18176747,4
-245,-1,18656827,4
-246,-1,24856109,4
-247,-1,20706317,4
-248,-1,18656030,4
-249,-1,19161852,4
-250,-1,18775365,4
-251,-1,18952341,4
-252,-1,31423188,4
-253,-1,20509356,4
-254,-1,212890,4
-255,-1,123933,4
-256,-1,22544764,4
-257,-1,22816087,4
-258,-1,23164927,4
-259,-1,23197269,4
-260,-1,23208397,4
-261,-1,5979072,4
-262,-1,25602451,4
-263,-1,24611668,4
-264,-1,25111328,4
-265,-1,290186,4
-266,-1,25499718,4
-267,-1,25744928,4
-268,-1,30007916,4
-269,-1,20645163,4
-270,-1,25895524,4
-271,-1,25938481,4
-272,-1,26030703,4
-273,-1,26118426,4
-274,-1,26228034,4
-275,-1,28259132,4
-276,-1,2036093,4
-277,-1,28962452,4
-278,-1,29570143,4
-279,-1,6065629,4
-280,-1,29983711,4
-281,-1,30231729,4
-282,-1,12997490,4
-283,-1,5064,4
-284,-1,30841984,4
-285,-1,31817749,4
-286,-1,24874360,4
-287,-1,169651,4
-288,-1,26892143,4
-289,-1,26114416,4
-290,-1,55067,4
-291,-1,23562877,4
-292,-1,22822848,4
-293,-1,127888,4
-294,-1,11271034,4
-295,-1,9518238,4
-296,-1,2087754,4
-297,-1,30689366,4
-298,-1,357486,4
-299,-1,556180,4
-300,-1,556180,4
-301,-1,20673694,4
-302,-1,14563,4
-303,-1,17314923,4
-304,-1,59660,4
-305,-1,27507117,4
-306,-1,16080547,4
-307,-1,13490776,4
-308,-1,66559,3
-309,-1,77739,3
-310,-1,49174,3
-311,-1,1633,3
-312,-1,13812,3
-313,-1,10373853,3
-314,-1,29133,3
-315,-1,39020,3
-316,-1,46654,3
-317,-1,12090838,3
-318,-1,32508,3
-319,-1,1122023,3
-320,-1,34494,3
-321,-1,77735,3
-322,-1,673158,3
-323,-1,96279,3
-324,-1,284873,3
-325,-1,96594,3
-326,-1,21611,3
-327,-1,98233,3
-328,-1,140671,3
-329,-1,12016,3
-330,-1,89187,3
-331,-1,96276,3
-332,-1,71135,3
-333,-1,16130312,3
-334,-1,284873,3
-335,-1,25656228,3
-336,-1,400906,3
-337,-1,140671,3
-338,-1,406911,3
-339,-1,454614,3
-340,-1,504366,3
-341,-1,507932,3
-342,-1,68487,3
-343,-1,386366,3
-344,-1,91476,3
-345,-1,9777,3
-346,-1,91981,3
-347,-1,91477,3
-348,-1,8176890,3
-349,-1,18903906,3
-350,-1,22328,3
-351,-1,61179,3
-352,-1,886955,3
-353,-1,386373,3
-354,-1,24830,3
-355,-1,284658,3
-356,-1,6605625,3
-357,-1,6219313,3
-358,-1,270032,3
-359,-1,286445,3
-360,-1,113047,3
-361,-1,2790566,3
-362,-1,901690,3
-363,-1,1372055,3
-364,-1,12007,3
-365,-1,64222,3
-366,-1,504369,3
-367,-1,400881,3
-368,-1,6043781,3
-369,-1,116356,3
-370,-1,563469,3
-371,-1,96482,3
-372,-1,8302734,3
-373,-1,3607898,3
-374,-1,11343467,3
-375,-1,10506237,3
-376,-1,2191152,3
-377,-1,1649029,3
-378,-1,8173788,3
-379,-1,2315892,3
-380,-1,80955,3
-381,-1,17214,3
-382,-1,44659,3
-383,-1,1705697,3
-384,-1,77740,3
-385,-1,1167532,3
-386,-1,2890090,3
-387,-1,10664113,3
-388,-1,6458635,3
-389,-1,45109,3
-390,-1,49869,3
-391,-1,61905,3
-392,-1,161456,3
-393,-1,830616,3
-394,-1,522776,3
-395,-1,24249,3
-396,-1,25300956,3
-397,-1,6101718,3
-398,-1,6341533,3
-399,-1,42000,3
-400,-1,7326427,3
-401,-1,7165300,3
-402,-1,7438179,3
-403,-1,25817395,3
-404,-1,8428984,3
-405,-1,9579634,3
-406,-1,11986736,3
-407,-1,10790277,3
-408,-1,10790290,3
-409,-1,10904853,3
-410,-1,25817395,3
-411,-1,13055592,3
-412,-1,12975375,3
-413,-1,18626839,3
-414,-1,20873740,3
-415,-1,13453029,3
-416,-1,15730052,3
-417,-1,13573419,3
-418,-1,17182126,3
-419,-1,15750692,3
-420,-1,15790883,3
-421,-1,15790894,3
-422,-1,15810910,3
-423,-1,13452375,3
-424,-1,15704459,3
-425,-1,25016389,3
-426,-1,24876258,3
-427,-1,17934530,3
-428,-1,18077903,3
-429,-1,18138189,3
-430,-1,20416357,3
-431,-1,24611565,3
-432,-1,18241129,3
-433,-1,18453098,3
-434,-1,18460193,3
-435,-1,18490567,3
-436,-1,18693655,3
-437,-1,18952341,3
-438,-1,20168816,3
-439,-1,20697413,3
-440,-1,20763746,3
-441,-1,20787425,3
-442,-1,15944410,3
-443,-1,22297138,3
-444,-1,22733729,3
-445,-1,22859850,3
-446,-1,22878967,3
-447,-1,22886612,3
-448,-1,13616278,3
-449,-1,23444482,3
-450,-1,28530221,3
-451,-1,386579,3
-452,-1,25689056,3
-453,-1,32605183,3
-454,-1,36313,3
-455,-1,27161156,3
-456,-1,28962895,3
-457,-1,30078567,3
-458,-1,30139664,3
-459,-1,31687423,3
-460,-1,31176804,3
-461,-1,1069143,3
-462,-1,9188338,3
-463,-1,26569995,3
-464,-1,502230,3
-465,-1,20879524,3
-466,-1,28962895,3
-467,-1,32735037,3
-468,-1,22814387,3
-469,-1,13569815,3
-470,-1,2271968,3
-471,-1,33132474,3
-472,-1,6928839,3
-473,-1,818145,3
-474,-1,16007873,3
-475,-1,15995144,3
-476,-1,30762503,3
-477,-1,24614,3
-478,-1,1189454,3
-479,-1,62992,3
-480,-1,76405,3
-481,-1,24474911,3
-482,-1,62992,3
-483,-1,30329506,3
-484,-1,2192092,3
-485,-1,6753849,3
-486,-1,840278,2
-487,-1,8935689,2
-488,-1,645023,2
-489,-1,315939,2
-490,-1,68428,2
-491,-1,81948,2
-492,-1,156534,2
-493,-1,1911,2
-494,-1,776212,2
-495,-1,2978,2
-496,-1,292570,2
-497,-1,618241,2
-498,-1,6387626,2
-499,-1,11366,2
-500,-1,13101468,2
-501,-1,10803709,2
-502,-1,77747,2
-503,-1,5558786,2
-504,-1,6828896,2
-505,-1,7108725,2
-506,-1,7234921,2
-507,-1,7743175,2
-508,-1,10194157,2
-509,-1,36194,2
-510,-1,15839976,2
-511,-1,16158601,2
-512,-1,9188338,2
-513,-1,17999892,2
-514,-1,20556791,2
-515,-1,763362,2
-516,-1,25733990,2
-517,-1,31423188,2
-518,-1,26114545,2
-519,-1,23986891,2
-520,-1,17118699,2
-521,-1,3335194,2
-522,-1,1105422,2
-523,-1,76479,2
-524,-1,35128447,2
-525,-1,57096,2
-526,-1,28186,1
-527,-1,8161140,1
-528,-1,28187,1
-529,-1,7094569,1
-530,-1,18925933,1
-531,-1,25659450,1
-532,-1,82599,1
-533,-1,53764,
-534,-1,365672,
-535,-1,40995,
-536,-1,8123742,
-537,-1,28496524,
-538,-1,176410,
-539,-1,60215,
-540,-1,700604,
-541,-1,26073074,
-542,-1,463378,
-543,-1,60211,
-544,-1,422452,
-545,-1,833312,
-546,-1,845501,
-547,-1,15575,
-548,-1,19063,
-549,-1,8049273,
-550,-1,8148686,
-551,-1,288756,
-552,-1,29999,
-553,-1,187065,
-554,-1,13821,
-555,-1,72199,
-556,-1,276478,
-557,-1,19073499,
-558,-1,21481566,
-559,-1,6611660,
-560,-1,76401,
-561,-1,41128,
-562,-1,64401,
-563,-1,394363,
-564,-1,70533,
-565,-1,17780,
-566,-1,93269,
-567,-1,218427,
-568,-1,67934,
-569,-1,1060548,
-570,-1,827,
-571,-1,41069,
-572,-1,64732,
-573,-1,37780,
-574,-1,1355339,
-575,-1,16331,
-576,-1,89186,
-577,-1,19057,
-578,-1,18280791,
-579,-1,8145855,
-580,-1,2199,
-581,-1,40992,
-582,-1,395738,
-583,-1,288557,
-584,-1,113436,
-585,-1,828401,
-586,-1,4965,
-587,-1,4912857,
-588,-1,3227063,
-589,-1,169182,
-590,-1,21996,
-591,-1,105,
-592,-1,8117883,
-593,-1,112,
-594,-1,117,
-595,-1,103,
-596,-1,38855,
-597,-1,6369525,
-598,-1,6122735,
-599,-1,6437061,
-600,-1,44236,
-601,-1,6713634,
-602,-1,60215,
-603,-1,61903,
-604,-1,13591153,
-605,-1,12158002,
-606,-1,9424053,
-607,-1,13038833,
-608,-1,13330553,
-609,-1,16059492,
-610,-1,22948207,
-611,-1,16144853,
-612,-1,16160834,
-613,-1,26863057,
-614,-1,15806786,
-615,-1,21792828,
-616,-1,26191000,
-617,-1,22299763,
-618,-1,23168277,
-619,-1,23363928,
-620,-1,25326486,
-621,-1,25489625,
-622,-1,25328893,
-623,-1,25817524,
-624,-1,25898216,
-625,-1,29584452,
-626,-1,28789644,
-627,-1,28811016,
-628,-1,46571,
-629,-1,32191710,
-630,-1,33413128,
-631,-1,89195,
-632,-1,11547876,
-633,-1,31194270,
-634,-1,34836326,
-635,-1,18196040,
-636,-1,8716987,
-637,-1,22055280,
-638,-1,17934610,
-639,-1,26030734,
-640,-1,18775306,
-641,-1,8869,
-642,-1,262405,
-643,-1,13588308,
-644,-1,6601050,
-645,-1,447210,
-646,-1,17646414,
-647,-1,3335194,
-648,-1,40051,
-649,-1,12296546,
-650,-1,137192,
-651,-1,101411,
-652,-1,22839420,
-653,-1,11980409,
-654,-1,21859262,
-655,-1,378415,
-656,-1,107,
-657,-1,24648217,
-658,-1,998367,
+,user_id,book_id,rating,title
+0,-1,2517439,5,"The Forever War  (The Forever War, #1)"
+1,-1,113576,5,The Smartest Guys in the Room: The Amazing Rise and Scandalous Fall of Enron
+2,-1,35100,5,Battle Cry of Freedom
+3,-1,228221,5,The Mask of Command
+4,-1,128717,5,Endurance
+5,-1,17662739,5,"2001: A Space Odyssey  (Space Odyssey, #1)"
+6,-1,356824,5,India After Gandhi: The History of the World's Largest Democracy
+7,-1,12125412,5,The Lady or the Tiger?: and Other Logic Puzzles
+8,-1,139069,5,Endurance: Shackleton's Incredible Voyage
+9,-1,35921,5,"On Basilisk Station  (Honor Harrington, #1)"
+10,-1,76680,5,"Foundation  (Foundation, #1)"
+11,-1,1898,5,Into Thin Air: A Personal Account of the Mount Everest Disaster
+12,-1,5096865,5,In Cold Blood
+13,-1,228665,5,"The Eye of the World  (The Wheel of Time, #1)"
+14,-1,465739,5,"Barracoon: The Story of the Last ""Black Cargo"""
+15,-1,11609409,5,A People's History of the United States
+16,-1,393033,5,Pilgrim at Tinker Creek
+17,-1,437143,5,A Short History of Nearly Everything
+18,-1,18949861,5,Contact
+19,-1,2913377,5,"The Name of the Wind  (The Kingkiller Chronicle, #1)"
+20,-1,1215032,5,"The Wise Man's Fear  (The Kingkiller Chronicle, #2)"
+21,-1,883438,5,East of Eden
+22,-1,5578108,5,From Colony to Superpower: U.S. Foreign Relations Since 1776
+23,-1,128029,5,A Thousand Splendid Suns
+24,-1,77203,5,The Kite Runner
+25,-1,5439,5,Interpreter of Maladies
+26,-1,1685995,5,Dune  (Dune #1)
+27,-1,6448772,5,"Quantum: Einstein, Bohr, and the Great Debate about the Nature of Reality"
+28,-1,6792458,5,The New Jim Crow: Mass Incarceration in the Age of Colorblindness
+29,-1,12609433,5,The Power Of Habit: Why We Do What We Do In Life And Business
+30,-1,25451264,5,Death's End  (Remembrance of Earthâs Past #3)
+31,-1,13372977,5,Private Empire: ExxonMobil and American Power
+32,-1,18505792,5,The Ocean at the End of the Lane
+33,-1,16115612,5,And the Mountains Echoed
+34,-1,18635622,5,"A Knight of the Seven Kingdoms  (The Tales of Dunk and Egg, #1-3)"
+35,-1,18693884,5,How Not to Be Wrong: The Power of Mathematical Thinking
+36,-1,21535271,5,"The Slow Regard of Silent Things  (The Kingkiller Chronicle, #2.5)"
+37,-1,23168817,5,"The Dark Forest  (Remembrance of Earthâs Past, #2)"
+38,-1,26156469,5,Never Split the Difference: Negotiating As If Your Life Depended On It
+39,-1,27071490,5,Homegoing
+40,-1,29496076,5,Killers of the Flower Moon: The Osage Murders and the Birth of the FBI
+41,-1,481335,5,The Vision: The Complete Series
+42,-1,18242950,5,Bad Blood: Secrets and Lies in a Silicon Valley Startup
+43,-1,6068557,5,Exhalation
+44,-1,1993860,4,World War Z: An Oral History of the Zombie War
+45,-1,8141748,4,Firestarter
+46,-1,61906,4,"The Warrior's Apprentice  (Vorkosigan Saga, #2)"
+47,-1,61916,4,"Miles, Mystery, and Mayhem  (Vorkosigan Omnibus, #3)"
+48,-1,77735,4,"Flag in Exile  (Honor Harrington, #5)"
+49,-1,180463,4,Leadership and Self-Deception: Getting out of the Box
+50,-1,10669,4,When Genius Failed: The Rise and Fall of Long-Term Capital Management
+51,-1,18635622,4,"The Hedge Knight  (The Tales of Dunk and Egg, #1)"
+52,-1,474072,4,"Neverwhere  (London Below, #1)"
+53,-1,21343,4,The Five Dysfunctions of a Team: A Leadership Fable
+54,-1,22435,4,"The Fabric of the Cosmos: Space, Time, and the Texture of Reality"
+55,-1,25320,4,"March Upcountry  (Empire of Man, #1)"
+56,-1,95784,4,The Rape of Nanking: The Forgotten Holocaust of World War II
+57,-1,32081,4,Albion's Seed: Four British Folkways in America
+58,-1,8136985,4,Of Mice and Men
+59,-1,40992,4,"Shadow & Claw  (The Book of the New Sun, #1-2)"
+60,-1,77507,4,"Red Mars  (Mars Trilogy, #1)"
+61,-1,6336986,4,"Judas Unchained  (Commonwealth Saga, #2)"
+62,-1,45258,4,Fallen Dragon
+63,-1,92057,4,The Autobiography of Malcolm X
+64,-1,6963184,4,"Spin  (Spin, #1)"
+65,-1,21343,4,The Five Temptations of a CEO: A Leadership Fable
+66,-1,30316148,4,"Old Man's War  (Old Man's War, #1)"
+67,-1,52397,4,"Parable of the Sower  (Earthseed, #1)"
+68,-1,61642,4,"Eric  (Discworld, #9)"
+69,-1,29580,4,Second Foundation  (Foundation #3)
+70,-1,77505,4,"Green Mars  (Mars Trilogy, #2)"
+71,-1,61916,4,"Miles Errant  (Vorkosigan Omnibus, #4)"
+72,-1,2723,4,The Years of Rice and Salt
+73,-1,77735,4,"Ashes of Victory  (Honor Harrington, #9)"
+74,-1,100467,4,Small Giants: Companies That Choose to Be Great Instead of Big
+75,-1,112292,4,"Dauntless  (The Lost Fleet, #1)"
+76,-1,116446,4,"The Forge  (The General, #1)"
+77,-1,118565,4,Mountaineering: Freedom of the Hills
+78,-1,33635374,4,For the Common Defense
+79,-1,4122,4,Built to Last: Successful Habits of Visionary Companies
+80,-1,1281235,4,1984
+81,-1,174501,4,India: A History
+82,-1,25300956,4,"Assassin's Apprentice  (Farseer Trilogy, #1)"
+83,-1,34497,4,"The Color of Magic  (Discworld, #1; Rincewind, #1)"
+84,-1,223380,4,Stories of Your Life and Others
+85,-1,234503,4,A History of South Africa
+86,-1,248787,4,The World Without Us
+87,-1,60932,4,"Parable of the Talents  (Earthseed, #2)"
+88,-1,978920,4,"The Godfather  (The Godfather, #1)"
+89,-1,66678,4,"Exile  (The Dark Elf, #2; The Legend of Drizzt, #2 )"
+90,-1,324750,4,High Output Management
+91,-1,477380,4,The Count of Monte Cristo
+92,-1,23357063,4,Hard Landing: The Epic Contest for Power and Profits That Plunged the Airlines into Chaos
+93,-1,167847,4,Marooned in Realtime
+94,-1,113934,4,The Goal: A Process of Ongoing Improvement
+95,-1,7996,4,"Redwall  (Redwall, #1)"
+96,-1,11357844,4,Snow Crash
+97,-1,28165439,4,The Long Walk
+98,-1,20878,4,"The Man Who Never Missed  (Matador, #1)"
+99,-1,113224,4,Russia: The Once and Future Empire From Pre-History to Putin
+100,-1,18163529,4,"Kings of Cocaine: Inside the MedellÃ­n Cartel - An Astonishing True Story of Murder, Money and International Corruption"
+101,-1,34506,4,"The Light Fantastic  (Discworld, #2; Rincewind #2)"
+102,-1,240617,4,Tau Zero
+103,-1,102327,4,Armor
+104,-1,362550,4,"Retief: Envoy to New Worlds  (Retief, #1)"
+105,-1,9447906,4,A Walk in the Woods: Rediscovering America on the Appalachian Trail
+106,-1,1635,4,Getting the Right Things Done: A Leader's Guide to Planning and Execution
+107,-1,25320,4,"March to the Sea  (Empire of Man, #2)"
+108,-1,45245,4,"The Reality Dysfunction  (Night's Dawn, #1)"
+109,-1,7996,4,"Lord Brocktree  (Redwall, #13)"
+110,-1,857043,4,Catch-22
+111,-1,866136,4,The Dreaming Void
+112,-1,285451,4,Liar's Poker
+113,-1,11472,4,We Wish to Inform You That Tomorrow We Will Be Killed With Our Families
+114,-1,350,4,Stranger in a Strange Land
+115,-1,8302746,4,"Last Argument of Kings  (The First Law, #3)"
+116,-1,419083,4,Killing Pablo: The Hunt for the World's Greatest Outlaw
+117,-1,1001524,4,"Pandora's Star  (Commonwealth Saga, #1)"
+118,-1,569978,4,Anansi Boys
+119,-1,781182,4,Barbarians at the Gate: The Fall of RJR Nabisco
+120,-1,2372,4,The Path Between the Seas: The Creation of the Panama Canal 1870-1914
+121,-1,475,4,Collapse: How Societies Choose to Fail or Succeed
+122,-1,16690,4,The Moon Is a Harsh Mistress
+123,-1,139373,4,Blood River: The Terrifying Journey Through The World's Most Dangerous Country
+124,-1,1107296,4,"Mutineers' Moon  (Dahak, #1)"
+125,-1,47109,4,"The Handmaid's Tale  (The Handmaid's Tale, #1)"
+126,-1,233679,4,"Guards! Guards!  (Discworld, #8; City Watch #1)"
+127,-1,19785919,4,Cryptonomicon
+128,-1,79909,4,In Patagonia
+129,-1,8837,4,"Wind, Sand and Stars"
+130,-1,12661,4,Chesapeake
+131,-1,29125925,4,The Adventures of Sherlock Holmes
+132,-1,618221,4,"Moving Pictures  (Discworld, #10)"
+133,-1,12856474,4,"In the Hands of the Great Spirit: The 20,000-Year History of American Indians"
+134,-1,76740,4,The Demolished Man
+135,-1,77711,4,"A Fire Upon the Deep  (Zones of Thought, #1)"
+136,-1,11354791,4,The Gods Themselves
+137,-1,873486,4,The Peace War
+138,-1,226004,4,"A Deepness in the Sky  (Zones of Thought, #2)"
+139,-1,3760025,4,Fahrenheit 451
+140,-1,239796,4,Coming of Age in the Milky Way
+141,-1,10240738,4,"Hyperion  (Hyperion Cantos, #1)"
+142,-1,45260,4,"The Naked God  (Night's Dawn, #3)"
+143,-1,333867,4,The Stars My Destination
+144,-1,767171,4,The Rise and Fall of the Third Reich: A History of Nazi Germany
+145,-1,409207,4,"A Game of Thrones  (A Song of Ice and Fire, #1)"
+146,-1,18630,4,"The Player of Games  (Culture, #2)"
+147,-1,11864578,4,Restless Giant: The United States from Watergate to Bush V. Gore
+148,-1,386374,4,"Small Gods  (Discworld, #13)"
+149,-1,29581,4,Foundation and Empire  (Foundation #2)
+150,-1,2732977,4,"The Girl with the Dragon Tattoo  (Millennium, #1)"
+151,-1,149267,4,The Stand
+152,-1,77735,4,"The Honor of the Queen  (Honor Harrington, #2)"
+153,-1,1768603,4,The White Tiger
+154,-1,846092,4,"Reaper Man  (Discworld, #11)"
+155,-1,61916,4,"Miles in Love  (Vorkosigan Omnibus, #6)"
+156,-1,224379,4,Gulag
+157,-1,2820512,4,Adventures of Huckleberry Finn
+158,-1,66717,4,Lucifer's Hammer
+159,-1,386372,4,"Mort  (Discworld, #4; Death, #1)"
+160,-1,6794,4,Cloud Atlas
+161,-1,77565,4,"The Fall of Hyperion  (Hyperion Cantos, #2)"
+162,-1,112537,4,"Rendezvous with Rama  (Rama, #1)"
+163,-1,1894269,4,"The Walking Dead, Vol. 8: Made to Suffer"
+164,-1,77736,4,"The Short Victorious War  (Honor Harrington, #3)"
+165,-1,1166599,4,"The Gathering Storm  (The Wheel of Time, #12)"
+166,-1,306090,4,The Fatal Shore: The Epic of Australia's Founding
+167,-1,292327,4,The Bluest Eye
+168,-1,1126719,4,House of Suns
+169,-1,399415,4,"Monstrous Regiment  (Discworld, #31)"
+170,-1,40445,4,"Altered Carbon  (Takeshi Kovacs, #1)"
+171,-1,127455,4,"The Lies of Locke Lamora  (Gentleman Bastard, #1)"
+172,-1,1839,4,"Guns, Germs, and Steel: The Fates of Human Societies"
+173,-1,50027,4,"Homeland  (The Dark Elf, #1; The Legend of Drizzt, #1)"
+174,-1,3869,4,A Brief History of Time
+175,-1,7613,4,Animal Farm
+176,-1,21343,4,"Overcoming the Five Dysfunctions of a Team: A Field Guide for Leaders, Managers, and Facilitators"
+177,-1,1260131,4,The Mahabharata: a Modern Rendering
+178,-1,49116,4,"Harry Potter and the Prisoner of Azkaban  (Harry Potter, #3)"
+179,-1,6391993,4,"Fool's Errand  (Tawny Man, #1)"
+180,-1,3363015,4,"Ender's Game  (Ender's Saga, #1)"
+181,-1,1107306,4,"The Excalibur Alternative  (Earth Legions, #3)"
+182,-1,3636,4,"The Giver  (The Giver, #1)"
+183,-1,10176,4,Dress Your Family in Corduroy and Denim
+184,-1,528366,4,"Gust Front  (Posleen War, #2)"
+185,-1,528362,4,"A Hymn Before Battle  (Posleen War, #1)"
+186,-1,5064,4,"World Without End  (Kingsbridge, #2)"
+187,-1,20957438,4,Champlain's Dream
+188,-1,136251,4,"Harry Potter and the Deathly Hallows  (Harry Potter, #7)"
+189,-1,231622,4,And Then There Were None
+190,-1,655707,4,The Eyes of the Dragon
+191,-1,25318,4,"March to the Stars  (Empire of Man, #3)"
+192,-1,46756,4,"Oryx and Crake  (MaddAddam, #1)"
+193,-1,1430426,4,Brave New World
+194,-1,19400,4,Decline and Fall of the Roman Empire: The Modern Library Collection
+195,-1,4952,4,What is the What
+196,-1,8117586,4,Into the Wild
+197,-1,61916,4,"Young Miles  (Vorkosigan Omnibus, #2)"
+198,-1,5325066,4,The Road
+199,-1,5043,4,"The Pillars of the Earth  (Kingsbridge, #1)"
+200,-1,6424171,4,"Jurassic Park  (Jurassic Park, #1)"
+201,-1,3437328,4,The Temporal Void
+202,-1,6466554,4,The Running Man
+203,-1,3896708,4,China: A History
+204,-1,13418329,4,"Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch"
+205,-1,8683527,4,"Harry Potter and the Sorcerer's Stone  (Harry Potter, #1)"
+206,-1,9344385,4,Who: The A Method for Hiring
+207,-1,6178648,4,Nothing to Envy: Ordinary Lives in North Korea
+208,-1,479561,4,"The Neutronium Alchemist  (Night's Dawn, #2)"
+209,-1,6736971,4,"The Desert Spear  (Demon Cycle, #2)"
+210,-1,3428935,4,"The Warded Man  (Demon Cycle, #1)"
+211,-1,7137787,4,Under the Dome
+212,-1,6569735,4,Dark Places
+213,-1,8253920,4,"Towers of Midnight  (The Wheel of Time, #13)"
+214,-1,7141642,4,The Thousand Autumns of Jacob De Zoet
+215,-1,30237009,4,"The Way of Kings  (The Stormlight Archive, #1)"
+216,-1,7315573,4,Fall of Giants  (The Century Trilogy #1)
+217,-1,149847,4,Mort: The Play
+218,-1,9300768,4,The Heroes  (First Law World #5)
+219,-1,8442457,4,Gone Girl
+220,-1,8171378,4,The Warmth of Other Suns: The Epic Story of America's Great Migration
+221,-1,8855321,4,"Leviathan Wakes  (The Expanse, #1)"
+222,-1,114217,4,"Once Upon a Car: The Fall and Resurrection of America's Big Three Automakers--GM, Ford, and Chrysler"
+223,-1,13707738,4,Boomerang: Travels in the New Third World
+224,-1,12382340,4,"Ready Player One  (Ready Player One, #1)"
+225,-1,12099136,4,11/22/63
+226,-1,17332218,4,"Words of Radiance  (The Stormlight Archive, #2)"
+227,-1,11865558,4,Venture Deals
+228,-1,12891107,4,"King of Thorns  (The Broken Empire, #2)"
+229,-1,285591,4,"Caliban's War  (The Expanse, #2)"
+230,-1,18663149,4,"Abaddon's Gate  (Expanse, #3)"
+231,-1,13153693,4,Ghettoside: A True Story of Murder in America
+232,-1,17702284,4,Dangerous Women
+233,-1,15034320,4,"Pines  (Wayward Pines, #1)"
+234,-1,32424,4,Ball Lightning
+235,-1,5061675,4,"A Song of Ice and Fire, 5-Book Boxed Set: A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, A Dance with Dragons  (Song of Ice & Fire 1-5)"
+236,-1,25852860,4,The Martian
+237,-1,19694475,4,The Girl with All the Gifts
+238,-1,17255186,4,"The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win"
+239,-1,17306293,4,"Shift  (Shift, #1-3; Silo, #2)"
+240,-1,17333324,4,Ancillary Justice  (Imperial Radch #1)
+241,-1,17568801,4,Zealot: The Life and Times of Jesus of Nazareth
+242,-1,17554595,4,"Senlin Ascends  (The Books of Babel, #1)"
+243,-1,17910124,4,"The Emperor's Blades  (Chronicle of the Unhewn Throne, #1)"
+244,-1,18176747,4,The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
+245,-1,18656827,4,"Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal"
+246,-1,24856109,4,The Three-Body Problem  (Remembrance of Earthâs Past #1)
+247,-1,20706317,4,The First Fifteen Lives of Harry August
+248,-1,18656030,4,"Cibola Burn  (Expanse, #4)"
+249,-1,19161852,4,"The Fifth Season  (The Broken Earth, #1)"
+250,-1,18775365,4,The Short and Tragic Life of Robert Peace: A Brilliant Young Man Who Left Newark for the Ivy League
+251,-1,18952341,4,"The Grace of Kings  (The Dandelion Dynasty, #1)"
+252,-1,31423188,4,Startup Boards: Getting the Most Out of Your Board of Directors
+253,-1,20509356,4,"Sand Omnibus  (Sand, #1-5)"
+254,-1,212890,4,Communicate to Influence: How to Inspire Your Audience to Action
+255,-1,123933,4,No Exit: Struggling to Survive a Modern Gold Rush
+256,-1,22544764,4,Uprooted
+257,-1,22816087,4,Seveneves
+258,-1,23164927,4,The Fold
+259,-1,23197269,4,Aurora
+260,-1,23208397,4,Underground Airlines
+261,-1,5979072,4,Dark Matter
+262,-1,25602451,4,Losing the Signal: The Untold Story Behind the Extraordinary Rise and Spectacular Fall of BlackBerry
+263,-1,24611668,4,Saturn Run
+264,-1,25111328,4,438 Days: An Extraordinary True Story of Survival at Sea
+265,-1,290186,4,Lower Ed: The Troubling Rise of For-Profit Colleges in the New Economy
+266,-1,25499718,4,Children of Time  (Children of Time #1)
+267,-1,25744928,4,Deep Work: Rules for Focused Success in a Distracted World
+268,-1,30007916,4,A Gentleman in Moscow
+269,-1,20645163,4,The Culture Code: The Secrets of Highly Successful Groups
+270,-1,25895524,4,"Red Sister  (Book of the Ancestor, #1)"
+271,-1,25938481,4,The Genius of Birds
+272,-1,26030703,4,Disrupted: My Misadventure in the Start-Up Bubble
+273,-1,26118426,4,"Ninefox Gambit  (The Machineries of Empire, #1)"
+274,-1,26228034,4,"The Obelisk Gate  (The Broken Earth, #2)"
+275,-1,28259132,4,Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley
+276,-1,2036093,4,Chile: Carretera Austral: A guide to one of the world's most scenic road trips
+277,-1,28962452,4,"Revenger  (Revenger, #1)"
+278,-1,29570143,4,New York 2140
+279,-1,6065629,4,Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity
+280,-1,29983711,4,Pachinko
+281,-1,30231729,4,The Death and Life of the Great Lakes
+282,-1,12997490,4,The Immortalists
+283,-1,5064,4,"A Column of Fire  (Kingsbridge, #3)"
+284,-1,30841984,4,"Kings of the Wyld  (The Band, #1)"
+285,-1,31817749,4,"The Stone Sky  (The Broken Earth, #3)"
+286,-1,24874360,4,Circe
+287,-1,169651,4,"Jade City  (The Green Bone Saga, #1)"
+288,-1,26892143,4,The Rise and Fall of the Dinosaurs: A New History of a Lost World
+289,-1,26114416,4,"A Little Hatred  (The Age of Madness, #1)"
+290,-1,55067,4,"Middlegame  (Middlegame, #1)"
+291,-1,23562877,4,"Skyward  (Skyward, #1)"
+292,-1,22822848,4,American Prison: A Reporter's Undercover Journey into the Business of Punishment
+293,-1,127888,4,The Making of a Manager: What to Do When Everyone Looks to You
+294,-1,11271034,4,The CEO Next Door: The 4 Behaviours that Transform Ordinary People into World Class Leaders
+295,-1,9518238,4,Small Fry
+296,-1,2087754,4,In Putin's Footsteps: Searching for the Soul of an Empire Across Russia's Eleven Time Zones
+297,-1,30689366,4,Say Nothing: A True Story of Murder and Memory in Northern Ireland
+298,-1,357486,4,Midnight in Chernobyl: The Untold Story of the World's Greatest Nuclear Disaster
+299,-1,556180,4,Recursion
+300,-1,556180,4,Recursion
+301,-1,20673694,4,Super Pumped: The Battle for Uber
+302,-1,14563,4,Blacktop Wasteland
+303,-1,17314923,4,"The Shadow of the Gods  (The Bloodsworn Saga, #1)"
+304,-1,59660,4,"She Who Became the Sun  (The Radiant Emperor, #1)"
+305,-1,27507117,4,The Hidden Life of Trees: The Illustrated Edition
+306,-1,16080547,4,The Saints of Salvation  (Salvation Sequence #3)
+307,-1,13490776,4,"A Deadly Education  (The Scholomance, #1)"
+308,-1,66559,3,Sharp Objects
+309,-1,77739,3,"Honor Among Enemies  (Honor Harrington, #6)"
+310,-1,49174,3,Freakonomics: A Rogue Economist Explores the Hidden Side of Everything
+311,-1,1633,3,Getting Things Done: The Art of Stress-Free Productivity
+312,-1,13812,3,"Magician: Apprentice  (The Riftwar Saga, #1)"
+313,-1,10373853,3,Tunnel in the Sky
+314,-1,29133,3,"A Fortress of Grey Ice  (Sword of Shadows, #2)"
+315,-1,39020,3,1491: New Revelations of the Americas Before Columbus
+316,-1,46654,3,"The Foundation Trilogy  (Foundation, #1-3)"
+317,-1,12090838,3,"The Gunslinger  (The Dark Tower, #1)"
+318,-1,32508,3,"The Black Echo  (Harry Bosch, #1; Harry Bosch Universe, #1)"
+319,-1,1122023,3,Jungle: A Harrowing True Story of Survival in the Amazon
+320,-1,34494,3,"The Wee Free Men  (Discworld, #30; Tiffany Aching, #1)"
+321,-1,77735,3,"Echoes of Honor  (Honor Harrington, #8)"
+322,-1,673158,3,"Darkover: First Contact  (Darkover Omnibus, #6)"
+323,-1,96279,3,"Marque and Reprisal  (Vatta's War, #2)"
+324,-1,284873,3,"Heris Serrano  (The Serrano Legacy, #1-3)"
+325,-1,96594,3,"Fearless  (The Lost Fleet, #2)"
+326,-1,21611,3,"Forever Peace  (The Forever War, #2)"
+327,-1,98233,3,Founders at Work: Stories of Startups' Early Days
+328,-1,140671,3,Shadow Games: The Fourth Chronicles of the Black Company: First Book of the South
+329,-1,12016,3,"Look to Windward  (Culture, #7)"
+330,-1,89187,3,"Revelation Space  (Revelation Space, #1)"
+331,-1,96276,3,"Command Decision  (Vatta's War, #4)"
+332,-1,71135,3,The Great Gatsby
+333,-1,16130312,3,After the Ice Age: The Return of Life to Glaciated North America
+334,-1,284873,3,"Hunting Party  (The Serrano Legacy, #1)"
+335,-1,25656228,3,Way Station
+336,-1,400906,3,"The White Rose  (The Chronicle of the Black Company, #3)"
+337,-1,140671,3,"The Black Company  (The Chronicle of the Black Company, #1)"
+338,-1,406911,3,"An Oblique Approach  (Belisarius, #1)"
+339,-1,454614,3,A Rulebook for Arguments
+340,-1,504366,3,"Insurrection  (Starfire, #1)"
+341,-1,507932,3,"Orphan Star  (Pip & Flinx Adventures, #2)"
+342,-1,68487,3,"Assassin's Quest  (Farseer Trilogy, #3)"
+343,-1,386366,3,"Equal Rites  (Discworld, #3)"
+344,-1,91476,3,"Grave Peril  (The Dresden Files, #3)"
+345,-1,9777,3,The God of Small Things
+346,-1,91981,3,"The Dragonbone Chair  (Memory, Sorrow, and Thorn, #1)"
+347,-1,91477,3,"Fool Moon  (The Dresden Files, #2)"
+348,-1,8176890,3,"Red Seas Under Red Skies  (Gentleman Bastard, #2)"
+349,-1,18903906,3,Touching the Void
+350,-1,22328,3,"Neuromancer  (Sprawl, #1)"
+351,-1,61179,3,"Ringworld  (Ringworld, #1)"
+352,-1,886955,3,"The Blade Itself  (The First Law, #1)"
+353,-1,386373,3,"Pyramids  (Discworld, #7)"
+354,-1,24830,3,The Illustrated Man
+355,-1,284658,3,"Trading in Danger  (Vatta's War, #1)"
+356,-1,6605625,3,"Engaging the Enemy  (Vatta's War, #3)"
+357,-1,6219313,3,"Storm Front  (The Dresden Files, #1)"
+358,-1,270032,3,Seven Years in Tibet
+359,-1,286445,3,"With the Lightnings  (Lt. Leary, #1)"
+360,-1,113047,3,The End of the Matter  (Pip & Flinx #4)
+361,-1,2790566,3,The Prince
+362,-1,901690,3,"Watership Down  (Watership Down, #1)"
+363,-1,1372055,3,"Courageous  (The Lost Fleet, #3)"
+364,-1,12007,3,"Use of Weapons  (Culture, #3)"
+365,-1,64222,3,"Going Postal  (Discworld, #33; Moist von Lipwig, #1)"
+366,-1,504369,3,"Field of Dishonor  (Honor Harrington, #4)"
+367,-1,400881,3,"Shadows Linger  (The Chronicle of the Black Company, #2)"
+368,-1,6043781,3,"Blood of Elves  (The Witcher, #1)"
+369,-1,116356,3,Footfall
+370,-1,563469,3,The Plague
+371,-1,96482,3,"More Terrible Than Death: Drugs, Violence, and America's War in Colombia"
+372,-1,8302734,3,"Before They Are Hanged  (The First Law, #2)"
+373,-1,3607898,3,"Stealing Light  (The Shoal Sequence, #1)"
+374,-1,11343467,3,"The Mote in God's Eye  (Moties, #1)"
+375,-1,10506237,3,"Death's Head  (Death's Head, Book 1)"
+376,-1,2191152,3,"Death's Head Maximum Offense  (Death's Head, Book 2)"
+377,-1,1649029,3,Murder on the Orient Express
+378,-1,8173788,3,"The Last Wish  (The Witcher, #0.5)"
+379,-1,2315892,3,Best Served Cold
+380,-1,80955,3,"Into the Looking Glass  (Looking Glass, #1)"
+381,-1,17214,3,Starship Troopers
+382,-1,44659,3,Pawn of Prophecy  (The Belgariad #1)
+383,-1,1705697,3,Wastelands
+384,-1,77740,3,"In Enemy Hands  (Honor Harrington, #7)"
+385,-1,1167532,3,Lord of the Flies
+386,-1,2890090,3,"The Republic of Thieves  (Gentleman Bastard, #3)"
+387,-1,10664113,3,"A Dance with Dragons  (A Song of Ice and Fire, #5)"
+388,-1,6458635,3,Swan Song
+389,-1,45109,3,"Golden Fool  (Tawny Man, #2)"
+390,-1,49869,3,"Harry Potter Series Box Set  (Harry Potter, #1-7)"
+391,-1,61905,3,"Barrayar  (Vorkosigan Saga, #7)"
+392,-1,161456,3,"The Hitchhiker's Guide to the Galaxy  (Hitchhiker's Guide to the Galaxy, #1)"
+393,-1,830616,3,Flowers for Algernon
+394,-1,522776,3,Business Adventures: Twelve Classic Tales from the World of Wall Street
+395,-1,24249,3,"A Cavern of Black Ice  (Sword of Shadows, #1)"
+396,-1,25300956,3,"Royal Assassin  (Farseer Trilogy, #2)"
+397,-1,6101718,3,"The Magicians  (The Magicians, #1)"
+398,-1,6341533,3,"Unseen Academicals  (Discworld, #37)"
+399,-1,42000,3,Living Like You Mean It: Use the Wisdom and Power of Your Emotions to Get the Life You Really Want
+400,-1,7326427,3,The Windup Girl
+401,-1,7165300,3,"The Black Prism  (Lightbringer, #1)"
+402,-1,7438179,3,The Evolutionary Void
+403,-1,25817395,3,"Ex-Heroes  (Ex-Heroes, #1)"
+404,-1,8428984,3,Half Way Home
+405,-1,9579634,3,"Prince of Thorns  (The Broken Empire, #1)"
+406,-1,11986736,3,Reamde
+407,-1,10790277,3,"Rise of Empire  (The Riyria Revelations, #3-4)"
+408,-1,10790290,3,"Theft of Swords  (The Riyria Revelations, #1-2)"
+409,-1,10904853,3,El Narco: Inside Mexico's Criminal Insurgency
+410,-1,25817395,3,"Ex-Patriots  (Ex-Heroes, #2)"
+411,-1,13055592,3,Redshirts
+412,-1,12975375,3,The Advantage: Why Organizational Health Trumps Everything Else In Business
+413,-1,18626839,3,1Q84  (1Q84 #1-3)
+414,-1,20873740,3,Sapiens: A Brief History of Humankind
+415,-1,13453029,3,"Wool Omnibus  (Silo, #1)"
+416,-1,15730052,3,Red Country
+417,-1,13573419,3,Great North Road
+418,-1,17182126,3,"Steelheart  (The Reckoners, #1)"
+419,-1,15750692,3,"Malice  (The Faithful and the Fallen, #1)"
+420,-1,15790883,3,"Promise of Blood  (Powder Mage, #1)"
+421,-1,15790894,3,"Fortune's Pawn  (Paradox, #1)"
+422,-1,15810910,3,"The Thousand Names  (The Shadow Campaigns, #1)"
+423,-1,13452375,3,The Stars Are Legion
+424,-1,15704459,3,"Firefight  (The Reckoners, #2)"
+425,-1,25016389,3,Armada
+426,-1,24876258,3,"The Aeronaut's Windlass  (The Cinder Spires, #1)"
+427,-1,17934530,3,"Annihilation  (Southern Reach, #1)"
+428,-1,18077903,3,"Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration"
+429,-1,18138189,3,"Tower Lord  (Raven's Shadow, #2)"
+430,-1,20416357,3,"Half a King  (Shattered Sea, #1)"
+431,-1,24611565,3,"Twelve Kings in Sharakhai  (The Song of Shattered Sands, #1)"
+432,-1,18241129,3,"A Crucible of Souls  (Sorcery Ascendant Sequence, #1)"
+433,-1,18453098,3,Defenders
+434,-1,18460193,3,Chaos Quarter
+435,-1,18490567,3,"Lock In  (Lock In, #1)"
+436,-1,18693655,3,A Mind for Numbers: How to Excel at Math and Science
+437,-1,18952341,3,"The Wall of Storms  (The Dandelion Dynasty, #2)"
+438,-1,20168816,3,Rogues
+439,-1,20697413,3,"The Abyss Beyond Dreams  (Commonwealth: Chronicle of the Fallers, #1)"
+440,-1,20763746,3,The Alliance: Managing Talent in the Networked Age
+441,-1,20787425,3,Reinventing Organizations: A Guide to Creating Organizations Inspired by the Next Stage of Human Consciousness
+442,-1,15944410,3,Startupland: How Three Guys Risked Everything to Turn an Idea into a Global Business
+443,-1,22297138,3,"The Novice  (Summoner, #1)"
+444,-1,22733729,3,"The Long Way to a Small, Angry Planet  (Wayfarers, #1)"
+445,-1,22859850,3,"Dark Intelligence  (Transformation, #1)"
+446,-1,22878967,3,"The Shadow of What Was Lost  (The Licanius Trilogy, #1)"
+447,-1,22886612,3,"Nemesis Games  (The Expanse, #5)"
+448,-1,13616278,3,"The Dread Wyrm  (The Traitor Son Cycle, #3)"
+449,-1,23444482,3,"The Traitor Baru Cormorant  (The Masquerade, #1)"
+450,-1,28530221,3,A Night Without Stars
+451,-1,386579,3,"Gangster Warlords: Drug Dollars, Killing Fields, and the New Politics of Latin America"
+452,-1,25689056,3,"The Inquisition  (Summoner, #2)"
+453,-1,32605183,3,"The Positive Organization: Breaking Free from Conventional Cultures, Constraints, and Beliefs"
+454,-1,36313,3,9 Tales of Henghis Hapthorn
+455,-1,27161156,3,Hillbilly Elegy: A Memoir of a Family and Culture in Crisis
+456,-1,28962895,3,IQ  (IQ #1)
+457,-1,30078567,3,"The Collapsing Empire  (The Interdependency, #1)"
+458,-1,30139664,3,Walkaway
+459,-1,31687423,3,"The Battlemage  (Summoner, #3)"
+460,-1,31176804,3,Snapshot
+461,-1,1069143,3,"The City of Brass  (The Daevabad Trilogy, #1)"
+462,-1,9188338,3,Edgedancer  (The Stormlight Archive #2.5)
+463,-1,26569995,3,The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change
+464,-1,502230,3,"Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs"
+465,-1,20879524,3,"Salvation  (Salvation Sequence, #1)"
+466,-1,28962895,3,"Righteous  (IQ, #2)"
+467,-1,32735037,3,An Unkindness of Ghosts
+468,-1,22814387,3,"A Time of Dread  (Of Blood and Bone, #1)"
+469,-1,13569815,3,"Semiosis  (Semiosis Duology, #1)"
+470,-1,2271968,3,"Bloody Rose  (The Band, #2)"
+471,-1,33132474,3,"The Poppy War  (The Poppy War, #1)"
+472,-1,6928839,3,"The Kingdom of Copper  (The Daevabad Trilogy, #2)"
+473,-1,818145,3,Powerful: Building a Culture of Freedom and Responsibility
+474,-1,16007873,3,This Is How You Lose the Time War
+475,-1,15995144,3,Spinning Silver
+476,-1,30762503,3,Maximize the Middle: A Playbook to Get from Start to Finish
+477,-1,24614,3,High Growth Handbook
+478,-1,1189454,3,"To Be Taught, If Fortunate"
+479,-1,62992,3,"The Bone Ships  (The Tide Child, #1)"
+480,-1,76405,3,Anxious People
+481,-1,24474911,3,The Institute
+482,-1,62992,3,Call of the Bone Ships  (The Tide Child #2)
+483,-1,30329506,3,Project Hail Mary
+484,-1,2192092,3,"The Last Watch  (The Divide, #1)"
+485,-1,6753849,3,A Wizard's Guide to Defensive Baking
+486,-1,840278,2,"Eon  (The Way, #1)"
+487,-1,8935689,2,"Consider Phlebas  (Culture, #1)"
+488,-1,645023,2,"The Belgariad Boxed Set: Pawn of Prophecy / Queen of Sorcery / Magician's Gambit / Castle of Wizardry / Enchanters' End Game  (The Belgariad, #1-5)"
+489,-1,315939,2,Ubik
+490,-1,68428,2,"The Final Empire  (Mistborn, #1)"
+491,-1,81948,2,The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It
+492,-1,156534,2,"Y: The Last Man, Vol. 1: Unmanned"
+493,-1,1911,2,The World Is Flat: A Brief History of the Twenty-first Century
+494,-1,776212,2,Tuf Voyaging
+495,-1,2978,2,Lost Horizon
+496,-1,292570,2,A Room of One's Own
+497,-1,618241,2,"Wizard's First Rule  (Sword of Truth, #1)"
+498,-1,6387626,2,"When the Devil Dances  (Posleen War, #3)"
+499,-1,11366,2,The Guns of August
+500,-1,13101468,2,"American Gods  (American Gods, #1)"
+501,-1,10803709,2,"Elantris  (Elantris, #1)"
+502,-1,77747,2,"We Few  (Empire of Man, #4)"
+503,-1,5558786,2,"Metro 2033  (Metro, #1)"
+504,-1,6828896,2,"Delivering Happiness: A Path to Profits, Passion, and Purpose"
+505,-1,7108725,2,Start with Why: How Great Leaders Inspire Everyone to Take Action
+506,-1,7234921,2,"Earth Strike  (Star Carrier, #1)"
+507,-1,7743175,2,"A Memory of Light  (The Wheel of Time, #14)"
+508,-1,10194157,2,"Shadow and Bone  (The Grisha, #1)"
+509,-1,36194,2,"Blood Song  (Raven's Shadow, #1)"
+510,-1,15839976,2,"Red Rising  (Red Rising Saga, #1)"
+511,-1,16158601,2,Turn the Ship Around!: A True Story of Turning Followers into Leaders
+512,-1,9188338,2,"Oathbringer  (The Stormlight Archive, #3)"
+513,-1,17999892,2,"The Atlantis Gene  (The Origin Mystery, #1)"
+514,-1,20556791,2,"Ark Royal  (Ark Royal, #1)"
+515,-1,763362,2,The New One Minute Manager
+516,-1,25733990,2,"Sleeping Giants  (Themis Files, #1)"
+517,-1,31423188,2,Hot Seat: The Startup CEO Guidebook
+518,-1,26114545,2,"Too Like the Lightning  (Terra Ignota, #1)"
+519,-1,23986891,2,Scaling Lean: Mastering the Key Metrics from Zero to One
+520,-1,17118699,2,Product Leadership: How Top Product Managers Launch Awesome Products and Build Successful Teams
+521,-1,3335194,2,Noumenon
+522,-1,1105422,2,Online Teaching at Its Best: Merging Instructional Design with Teaching and Learning Research
+523,-1,76479,2,Lost and Founder: A Painfully Honest Field Guide to the Startup World
+524,-1,35128447,2,Infinite
+525,-1,57096,2,"Paladin's Grace  (The Saint of Steel, #1)"
+526,-1,28186,1,"The Sea of Monsters  (Percy Jackson and the Olympians, #2)"
+527,-1,8161140,1,On the Beach
+528,-1,28187,1,"The Lightning Thief  (Percy Jackson and the Olympians, #1)"
+529,-1,7094569,1,"Feed  (Newsflesh, #1)"
+530,-1,18925933,1,Mastering the VC Game: A Venture Capital Insider Reveals How to Get from Start-up to IPO on Your Terms
+531,-1,25659450,1,Arkwright
+532,-1,82599,1,Rabbits: A Novel
