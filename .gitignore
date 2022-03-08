@@ -5,6 +5,13 @@
 *.json.gz
 goodreads_interactions.csv
 book_id_map.csv
+book_tables.txt
+overlap_users.txt
+similar_user_interactions.csv
+my_books.csv
+liked_books_full.csv
+*.fna
+ncbi_datasets.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
