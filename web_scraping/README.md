@@ -19,6 +19,19 @@ Next, we'll use [playwright](https://playwright.dev/), a browser automation tool
 
 Finally, we'll explore the data a bit in python and talk about how you can use data after scraping it.
 
+## Code
+
+You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/web_scraping).
+
+File overview:
+
+* `web_scraping.ipynb` - a jupyter notebook where we parse downloaded data
+* `single_page/1.py` - a script to visit a single page with playwright and screenshot it
+* `single_page/2.py` - a script to visit a single page with playwright and download the articles
+* `multi_page/1.py` - a script to visit multiple pages with playwright and download the articles
+* `playwright_in_jupyter.ipynb` - an example of using the playwright async API in Jupyter notebook
+
+
 # Local Setup
 
 ## Installation
@@ -31,6 +44,8 @@ To follow this project, please install the following:
 * [JupyterLab](https://jupyter.org/install)
 * pandas
     * Run `pip install pandas`
+* BeautfulSoup
+    * Run `pip install beautifulsoup4`
 * playwright
     * Run `pip install playwright`
 * playwright browsers
