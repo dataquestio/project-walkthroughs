@@ -32,6 +32,8 @@ You'll need to download three files to follow this project:
 * [noc_regions.csv](https://drive.google.com/uc?export=download&id=1aqSmdHo3perJtdduTzCLMB6W5h_KdsOd) - contains information on how national olympic committee codes map to country names.
 * [country_population.csv](https://drive.google.com/uc?export=download&id=1jYxLnVMtPdnh3pmJW3OEs6YEk3uTCl1h) - contains information on the population of each country.
 
+The Olympic and NOC data is originally from [Kaggle](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results).  The population data is from the World Bank.
+
 # Project Steps
 
 1. Data exploration - load the data in and explore it by creating visualizations
