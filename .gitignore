@@ -12,6 +12,11 @@ my_books.csv
 liked_books_full.csv
 *.fna
 ncbi_datasets.csv
+scratch.ipynb
+dog_images
+images
+venv
+env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
