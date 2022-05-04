@@ -34,6 +34,6 @@ To follow this project, please install the following locally:
     
 ## Data
 
-You don't need to download any data.  We'll be scraping [FBref](https://fbref.com/en/) to get our data.
+We'll be scraping [FBref](https://fbref.com/en/) to get our data in the first part of this project (`scraping.ipynb`).
 
-If you only want to do the second part of the project (machine learning) you can download `matches.csv` here.
+If you only want to do the second part of the project (`predictions.ipynb`) you can download `matches.csv` [here](https://drive.google.com/uc?export=download&id=1V1OHnqG29irN-56wf77LQvxhCY3HRfIy).
