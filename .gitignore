@@ -17,6 +17,8 @@ dog_images
 images
 venv
 env
+movies.csv
+ratings.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
