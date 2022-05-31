@@ -54,13 +54,14 @@ def podcast_summary():
         stored_episodes = hook.get_pandas_df("SELECT * from episodes;")
         new_episodes = []
         for episode in episodes:
-            if episode["title"] not in stored_episodes["title"].values:
+            if episode["link"] not in stored_episodes["link"].values:
                 filename = f"{episode['link'].split('/')[-1]}.mp3"
                 new_episodes.append([episode["link"], episode["title"], episode["pubDate"], episode["description"], filename])
 
         hook.insert_rows(table='episodes', rows=new_episodes, target_fields=["link", "title", "published", "description", "filename"])
+        return new_episodes
 
-    load_episodes(podcast_episodes)
+    new_episodes = load_episodes(podcast_episodes)
 
     @task()
     def download_episodes(episodes):
@@ -80,8 +81,10 @@ def podcast_summary():
             })
         return audio_files
 
+    audio_files = download_episodes(podcast_episodes)
+
     @task()
-    def speech_to_text():
+    def speech_to_text(audio_files, new_episodes):
         hook = SqliteHook(sqlite_conn_id="podcasts")
         untranscribed_episodes = hook.get_pandas_df("SELECT * from episodes WHERE transcript IS NULL;")
 
@@ -107,8 +110,6 @@ def podcast_summary():
                 transcript += text
             hook.insert_rows(table='episodes', rows=[[row["link"], transcript]], target_fields=["link", "transcript"], replace=True)
 
-    audio_files = download_episodes(podcast_episodes)
-
-    speech_to_text(audio_files)
+    speech_to_text(audio_files, new_episodes)
 
 summary = podcast_summary()
