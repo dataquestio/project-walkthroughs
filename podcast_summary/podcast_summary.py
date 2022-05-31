@@ -101,7 +101,7 @@ def podcast_summary():
 
             step = 40000
             transcript = ""
-            for i in range(0,len(mp3), step):
+            for i in range(0, len(mp3), step):
                 print(f"Progress: {i/len(mp3)}")
                 segment = mp3[i:i+step]
                 rec.AcceptWaveform(segment.raw_data)
