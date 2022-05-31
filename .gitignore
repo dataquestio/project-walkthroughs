@@ -19,6 +19,12 @@ venv
 env
 movies.csv
 ratings.csv
+episodes.db
+episodes/
+*.scorer
+*.tflite
+*.zip
+*.wav
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
