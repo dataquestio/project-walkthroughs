@@ -99,7 +99,7 @@ def podcast_summary():
             mp3 = mp3.set_channels(1)
             mp3 = mp3.set_frame_rate(FRAME_RATE)
 
-            step = 40000
+            step = 20000
             transcript = ""
             for i in range(0, len(mp3), step):
                 print(f"Progress: {i/len(mp3)}")
@@ -110,6 +110,7 @@ def podcast_summary():
                 transcript += text
             hook.insert_rows(table='episodes', rows=[[row["link"], transcript]], target_fields=["link", "transcript"], replace=True)
 
-    speech_to_text(audio_files, new_episodes)
+    #Uncomment this to try speech to text (may not work)
+    #speech_to_text(audio_files, new_episodes)
 
 summary = podcast_summary()
