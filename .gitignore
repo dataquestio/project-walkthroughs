@@ -25,6 +25,7 @@ episodes/
 *.tflite
 *.zip
 *.wav
+podcast_summary2.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -78,6 +79,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+recasepunc/
 
 # Translations
 *.mo
