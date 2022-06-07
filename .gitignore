@@ -26,6 +26,7 @@ episodes/
 *.zip
 *.wav
 podcast_summary2.py
+temp.mp3
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
