@@ -1,19 +1,21 @@
 # Project Overview
 
-In this project, we'll build a system that can automatically take notes for us by turning speech into text and generating a summary.  We'll also include a way to hook up a microphone to automatically record and transcribe audio for live notetaking.
+In this project, we'll build a system that can automatically recognize speech and summarize it.  This can be used for automatically transcribing and summarizing lecture recordings, podcasts, or videos.
 
-By the end of this project, you'll have a voice recognition project that you can continue to build on.
+We'll also include a way to hook up a microphone to automatically record and transcribe audio for live notetaking.  This could be used to record and transcribe meetings in real-time.
+
+By the end of this project, you'll have a speech to text project that you can continue to build on.
 
 **Project Steps**
 
-* Create a voice recognition system using vosk
-* Add punctuation to the text transcript us recasepunc
-* Summarize the text using huggingface transformers
+* Create a speech recognition system using vosk
+* Add punctuation to the text transcript using recasepunc
+* Summarize the text using a huggingface summarization pipeline
 * Create a widget to record and transcribe live audio
 
 ## Code
 
-You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/voice).
+You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/speech_recognition).
 
 File overview:
 
@@ -73,5 +75,5 @@ Pyaudio can be a little tricky to install, since it depends on system packages. 
 
 You'll want to download a couple of audio files to test the transcription with:
 
-* [marketplace_full.mp3](https://github.com/dataquestio/project-walkthroughs/raw/master/voice/marketplace_full.mp3)
-* [marketplace.mp3](https://github.com/dataquestio/project-walkthroughs/raw/master/voice/marketplace.mp3)
+* [marketplace_full.mp3](https://github.com/dataquestio/project-walkthroughs/raw/master/speech_recognition/marketplace_full.mp3)
+* [marketplace.mp3](https://github.com/dataquestio/project-walkthroughs/raw/master/speech_recognition/marketplace.mp3)

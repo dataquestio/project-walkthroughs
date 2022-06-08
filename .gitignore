@@ -27,6 +27,7 @@ episodes/
 *.wav
 podcast_summary2.py
 temp.mp3
+voice2.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
