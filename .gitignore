@@ -29,6 +29,8 @@ podcast_summary2.py
 temp.mp3
 voice2.ipynb
 .stfolder
+microphone/transcript.txt
+voice3.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
