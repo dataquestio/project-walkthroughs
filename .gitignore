@@ -31,6 +31,7 @@ voice2.ipynb
 .stfolder
 microphone/transcript.txt
 voice3.ipynb
+microphone*.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
