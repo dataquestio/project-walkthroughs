@@ -32,6 +32,7 @@ voice2.ipynb
 microphone/transcript.txt
 voice3.ipynb
 microphone*.ipynb
+players_22.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
