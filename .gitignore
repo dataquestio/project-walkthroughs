@@ -35,7 +35,10 @@ microphone*.ipynb
 players_22.csv
 athlete_events.csv
 regression1.ipynb
-
+private.py
+whoogle.ipynb
+exploration
+*_live*.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

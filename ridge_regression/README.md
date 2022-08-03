@@ -4,6 +4,8 @@ In this project, we'll build a ridge regression algorithm from scratch.  We'll c
 
 We'll create our algorithm using python and pandas.  We'll then compare it to the reference implementation from scikit-learn.
 
+It's recommended to watch the video on [linear regression](https://youtu.be/z2hpinQggNM) before this one.
+
 ## Code
 
 You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/ridge_regression).
