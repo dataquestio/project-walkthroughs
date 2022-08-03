@@ -39,6 +39,7 @@ private.py
 whoogle.ipynb
 exploration
 *_live*.ipynb
+links.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
