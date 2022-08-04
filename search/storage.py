@@ -15,7 +15,9 @@ class DBStorage():
                 rank INTEGER,
                 link TEXT,
                 title TEXT,
+                snippet TEXT,
                 html TEXT,
+                created DATETIME,
                 UNIQUE(query, link)
             );
             """
@@ -32,6 +34,6 @@ class DBStorage():
         res = cur.execute(r"select count(*) from results where query=? and link=?", (values[0], values[1]))
         rows = res.fetchone()
         if rows[0] == 0:
-            cur.execute('INSERT INTO results (query, rank, link, title, html) VALUES(?, ?, ?, ?, ?)', values)
+            cur.execute('INSERT INTO results (query, rank, link, title, snippet, html, created) VALUES(?, ?, ?, ?, ?, ?, ?)', values)
             self.con.commit()
         cur.close()

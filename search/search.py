@@ -3,6 +3,7 @@ import requests
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 import pandas as pd
 from storage import DBStorage
+from datetime import datetime
 
 """
 def search_scrape(query):
@@ -48,24 +49,25 @@ def scrape_page(links):
     return html
 
 class Search():
-    min_results = 15
 
     def __init__(self):
-        self.search_func = search_api
         self.storage = DBStorage()
-        self.columns = ["query", "rank", "link", "title", "html"]
+        self.columns = ["query", "rank", "link", "title", "snippet", "html", "created"]
 
     def search(self, query):
         stored_results = self.storage.query_results(query)
-        if stored_results.shape[0] >= self.min_results:
+        if stored_results.shape[0] > 0:
+            stored_results["created"] = pd.to_datetime(stored_results["created"])
             return stored_results[self.columns]
 
-        results = self.search_func(query)
+        print("No results in database.  Using the API.")
+        results = search_api(query)
         html = scrape_page(results["link"])
         results["html"] = html
         results = results[results["html"].str.len() > 0].copy()
         results["query"] = query
+        results["created"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
         results = results[self.columns]
         results.apply(lambda x: self.storage.insert_row(x), axis=1)
-        print("inserted")
+        print(f"Inserted {results.shape[0]} records.")
         return results
