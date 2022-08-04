@@ -1,5 +1,6 @@
 from flask import Flask, request
 from search import Search
+from filter import Filter
 
 app = Flask(__name__)
 
@@ -37,8 +38,13 @@ def show_search_form():
 def run_search(query):
     se = Search()
     results = se.search(query)
+    fi = Filter(results)
+    filtered, other = fi.filter()
     html = search_template
-    for index, row in results.iterrows():
+    for index, row in filtered.iterrows():
+        html += result_template.format(**row)
+    html += "<h4>Filtered Out</h4>"
+    for index, row in other.iterrows():
         html += result_template.format(**row)
     return html
 

@@ -1,9 +1,10 @@
 from settings import *
 import requests
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 import pandas as pd
 from storage import DBStorage
 from datetime import datetime
+import time
 
 """
 def search_scrape(query):
@@ -40,11 +41,15 @@ def scrape_page(links):
         browser = p.chromium.launch()
         page = browser.new_page()
         for link in links:
+            print(link)
             try:
-                page.goto(link)
+                page.goto(link, wait_until="load")
                 html.append(page.content())
             except PlaywrightTimeoutError:
                 html.append("")
+            except PlaywrightError:
+                time.sleep(.5)
+                html.append(page.content())
         browser.close()
     return html
 
@@ -53,6 +58,8 @@ class Search():
     def __init__(self):
         self.storage = DBStorage()
         self.columns = ["query", "rank", "link", "title", "snippet", "html", "created"]
+
+
 
     def search(self, query):
         stored_results = self.storage.query_results(query)

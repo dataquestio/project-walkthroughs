@@ -26,14 +26,14 @@ class DBStorage():
         cur.close()
 
     def query_results(self, query):
-        df = pd.read_sql(f"select * from results where query='{query}'", self.con)
+        df = pd.read_sql(f"select * from results where query='{query}' order by rank asc", self.con)
         return df
 
     def insert_row(self, values):
         cur = self.con.cursor()
-        res = cur.execute(r"select count(*) from results where query=? and link=?", (values[0], values[1]))
-        rows = res.fetchone()
-        if rows[0] == 0:
+        try:
             cur.execute('INSERT INTO results (query, rank, link, title, snippet, html, created) VALUES(?, ?, ?, ?, ?, ?, ?)', values)
             self.con.commit()
+        except sqlite3.IntegrityError:
+            pass
         cur.close()
