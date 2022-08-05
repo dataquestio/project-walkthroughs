@@ -1,4 +1,4 @@
 flask
 pandas
-playwright
+requests
 beautifulsoup4

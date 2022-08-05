@@ -1,6 +1,7 @@
 from flask import Flask, request
 from search import Search
 from filter import Filter
+import html
 
 app = Flask(__name__)
 
@@ -27,7 +28,7 @@ search_template = styles + """
     """
 
 result_template = """
-<p class="site">{link}</p>
+<p class="site">{rank}: {link}</p>
 <a href="{link}">{title}</a>
 <p class="snippet">{snippet}</p>
 """
@@ -39,14 +40,12 @@ def run_search(query):
     se = Search()
     results = se.search(query)
     fi = Filter(results)
-    filtered, other = fi.filter()
-    html = search_template
+    filtered = fi.filter()
+    rendered = search_template
+    filtered["snippet"] = filtered["snippet"].apply(lambda x: html.escape(x))
     for index, row in filtered.iterrows():
-        html += result_template.format(**row)
-    html += "<h4>Filtered Out</h4>"
-    for index, row in other.iterrows():
-        html += result_template.format(**row)
-    return html
+        rendered += result_template.format(**row)
+    return rendered
 
 @app.route("/", methods=['GET', 'POST'])
 def search_form():

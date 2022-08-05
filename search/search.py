@@ -1,6 +1,6 @@
 from settings import *
 import requests
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
+from requests.exceptions import RequestException
 import pandas as pd
 from storage import DBStorage
 from datetime import datetime
@@ -35,6 +35,7 @@ def search_api(query, pages=int(RESULT_COUNT/10)):
     res_df = res_df[["link", "rank", "snippet", "title"]]
     return res_df
 
+"""
 def scrape_page(links):
     html = []
     with sync_playwright() as p:
@@ -51,6 +52,18 @@ def scrape_page(links):
                 time.sleep(.5)
                 html.append(page.content())
         browser.close()
+    return html
+"""
+
+def scrape_page(links):
+    html = []
+    for link in links:
+        print(link)
+        try:
+            data = requests.get(link)
+            html.append(data.text)
+        except RequestException:
+            html.append("")
     return html
 
 class Search():
