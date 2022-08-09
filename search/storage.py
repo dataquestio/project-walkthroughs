@@ -18,6 +18,7 @@ class DBStorage():
                 snippet TEXT,
                 html TEXT,
                 created DATETIME,
+                relevance INTEGER,
                 UNIQUE(query, link)
             );
             """

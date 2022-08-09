@@ -1,15 +1,20 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from settings import *
-import re
 
-def count_trackers(row):
+with open("blacklist.txt") as f:
+    domains = set(f.read().split("\n"))
+
+def tracker_urls(row):
     soup = BeautifulSoup(row["html"])
-    domain = urlparse(row["link"]).hostname
     scripts = soup.find_all("script", {"src": True})
     srcs = [s.get("src") for s in scripts]
-    bad_srcs = [s for s in srcs if ".." not in s and domain not in s and "cdn" not in s]
-    return len(bad_srcs)
+
+    links = soup.find_all("a", {"href": True})
+    href = [l.get("href") for l in links]
+
+    all_domains = [urlparse(s).hostname for s in srcs + href]
+    return len([a for a in all_domains if a in domains])
 
 def get_page_content(row):
     soup = BeautifulSoup(row["html"])
@@ -20,29 +25,23 @@ class Filter():
     def __init__(self, results):
         self.filtered = results.copy()
 
-    def js_filter(self):
-        tracker_count = self.filtered.apply(count_trackers, axis=1)
+    def tracker_filter(self):
+        tracker_count = self.filtered.apply(tracker_urls, axis=1)
         tracker_count[tracker_count > tracker_count.median()] = RESULT_COUNT
-        self.filtered["rank"] += tracker_count
+        self.filtered["rank"] += tracker_count * 2
 
     def content_filter(self):
         page_content = self.filtered.apply(get_page_content, axis=1)
         word_count = page_content.apply(lambda x: len(x.split(" ")))
-        median = word_count.median()
-        word_count /= median
+
+        word_count /= word_count.median()
         word_count[word_count <= .5] = RESULT_COUNT
+        word_count[word_count != RESULT_COUNT] = 0
         self.filtered["rank"] += word_count
 
-    def year_filter(self):
-        titles = self.filtered["title"]
-        year_in_title = titles.apply(lambda x: len(re.findall(r"20\d{2}", x)))
-        year_in_title[year_in_title > 0] = RESULT_COUNT
-        self.filtered["rank"] += year_in_title
-
     def filter(self):
-        self.js_filter()
+        self.tracker_filter()
         self.content_filter()
-        self.year_filter()
         self.filtered = self.filtered.sort_values("rank", ascending=True)
         self.filtered["rank"] = self.filtered["rank"].round()
         return self.filtered
