@@ -40,6 +40,8 @@ whoogle.ipynb
 exploration
 *_live*.ipynb
 links.db
+blacklist.txt
+searchlive
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -7,6 +7,7 @@ We'll use Pycharm, a common python IDE, to write our code and run it.
 **Project Steps**
 
 * Setup a programmable search engine [Custom Search API](https://developers.google.com/custom-search/v1/introduction)
+  * You can create one [here](https://programmablesearchengine.google.com/controlpanel/all)
 * Create an [API key](https://console.cloud.google.com/apis/credentials) for the engine
 * Create a module to search using the API
 * Create a Flask application to search and render results
@@ -42,3 +43,10 @@ You will need to create a programmable search engine and get an API key by follo
 You'll need to download a list of ad and tracker urls from [here](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt).  We'll use this to filter out bad domains.  Please save it as `blacklist.txt`.
 
 I also recommend copying the [storage.py](https://github.com/dataquestio/project-walkthroughs/blob/master/search/storage.py) file into your directory before we start the project.
+
+## Run
+
+Run the project with:
+
+* `pip install -r requirements.txt`
+* `flask --debug run --port 5001`
