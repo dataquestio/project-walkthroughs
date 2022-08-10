@@ -29,7 +29,7 @@ def scrape_page(links):
     for link in links:
         print(link)
         try:
-            data = requests.get(link)
+            data = requests.get(link, timeout=5)
             html.append(data.text)
         except RequestException:
             html.append("")
