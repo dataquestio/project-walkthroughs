@@ -38,3 +38,9 @@ class DBStorage():
         except sqlite3.IntegrityError:
             pass
         cur.close()
+
+    def update_relevance(self, query, link, relevance):
+        cur = self.con.cursor()
+        cur.execute('UPDATE results SET relevance=? WHERE query=? AND link=?', [relevance, query, link])
+        self.con.commit()
+        cur.close()
