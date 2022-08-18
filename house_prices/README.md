@@ -1,6 +1,8 @@
 # Project Overview
 
-In this project, we'll predict future house prices.  We'll use data from the Federal Reserve, along with house price data from Zillow.  We'll merge and combine this data, then use it to train a Random Forest model.  The model will predict if house prices will increase or decrease in the future.  We'll measure error and improve our model with new predictors.
+In this project, we'll predict future house prices.  We'll use data from the Federal Reserve, along with house price data from Zillow.  We'll merge and combine this data, then use it to train a random forest model.  The model will predict if house prices will increase or decrease in the future.  We'll measure error using backtesting, then improve our model with new predictors.
+
+This project can be customized to predict house prices in your metro area if you live in the US.
 
 **Project Steps**
 
@@ -33,12 +35,12 @@ To follow this project, please install the following locally:
 
 ## Data
 
-You'll need to download a few csv files to run this project:
+You'll need to download a few csv files to run this project.  These files are included in this repo, but you may want newer versions:
 
 * Federal reserve data
-    * [CPI dataset](https://fred.stlouisfed.org/series/CPIAUCSL)
-    * [Rental vacancy rate](https://fred.stlouisfed.org/series/RRVRUSQ156N)
-    * [Mortgage interest rates](https://fred.stlouisfed.org/series/MORTGAGE30US)
+    * [CPI dataset](https://fred.stlouisfed.org/series/CPIAUCSL) - CPIAUCSL.csv
+    * [Rental vacancy rate](https://fred.stlouisfed.org/series/RRVRUSQ156N) - RRVRUSQ156N.csv
+    * [Mortgage interest rates](https://fred.stlouisfed.org/series/MORTGAGE30US) - MORTGAGE30US.csv
 * [Zillow data](https://www.zillow.com/research/data/)
-    * ZHVI (raw, weekly)
-    * 
+    * ZHVI (raw, weekly) - Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv
+    * Median sale price (raw, all homes, weekly) - Metro_median_sale_price_uc_sfrcondo_week.csv
