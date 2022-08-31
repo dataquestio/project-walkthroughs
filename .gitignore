@@ -43,6 +43,7 @@ links.db
 blacklist.txt
 searchlive
 wiki_history
+house_prices.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
