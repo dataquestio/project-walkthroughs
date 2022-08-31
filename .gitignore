@@ -42,6 +42,7 @@ exploration
 links.db
 blacklist.txt
 searchlive
+wiki_history
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
