@@ -4,3 +4,4 @@ xgboost
 mwclient
 yfinance
 matplotlib
+transformers

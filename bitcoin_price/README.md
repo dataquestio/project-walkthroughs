@@ -36,17 +36,8 @@ To follow this project, please install the following locally:
     * scikit-learn
     * xgboost
     * mwclient
+    * transformers
 
 ## Data
 
-Computing the Wikipedia edit data takes time.  It can be faster to run the version that's already been generated.  It's in this repository, and called `wikipedia_edits.csv`.  We'll be downloading the bitcoin price data as part of the proh
-
-If you want to get newer versions:
-
-* Federal reserve data
-    * [CPI dataset](https://fred.stlouisfed.org/series/CPIAUCSL) - CPIAUCSL.csv
-    * [Rental vacancy rate](https://fred.stlouisfed.org/series/RRVRUSQ156N) - RRVRUSQ156N.csv
-    * [Mortgage interest rates](https://fred.stlouisfed.org/series/MORTGAGE30US) - MORTGAGE30US.csv
-* [Zillow data](https://www.zillow.com/research/data/)
-    * ZHVI (raw, weekly) - Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv
-    * Median sale price (raw, all homes, weekly) - Metro_median_sale_price_uc_sfrcondo_week.csv
+Computing the Wikipedia edit data takes time.  It can be faster to use the version that's already been generated.  It's in this repository, and called `wikipedia_edits.csv`.  Feel free to download and use the file.  We'll be downloading the Bitcoin price data as part of the project.
