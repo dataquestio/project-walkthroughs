@@ -4,7 +4,7 @@ In this project, we'll predict the future price of Bitcoin.  We'll use historica
 
 We'll develop a backtesting system and use a robust error metric so we can tell if the algorithm is performing well.
 
-This project can be extending to other cryptocurrencies as well.
+This project can be extended to other cryptocurrencies as well.
 
 **Project Steps**
 
