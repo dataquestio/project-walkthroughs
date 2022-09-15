@@ -31,7 +31,6 @@ To follow this project, please install the following locally:
 * Python packages
     * pybaseball
     * pandas
-    * xgboost
     * scikit-learn
     * numpy
 
