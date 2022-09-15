@@ -1,8 +1,8 @@
 # Project Overview
 
-In this project, we'll predict future season stats for baseball players.  Specifically, we'll predict how many home runs a player will hit next season.  We'll first download baseball season data using pybaseball and clean it.  We'll do feature selection using a sequential feature selector to identify the most promising predictors for machine learning.  We'll then train an xgboost model to predict future season HRs.  We'll measure error and improve the model.
+In this project, we'll predict future season stats for baseball players.  Specifically, we'll predict the wins above replacement (WAR) a player will generate next season.  We'll first download baseball season data using pybaseball and clean it.  We'll do feature selection using a sequential feature selector to identify the most promising predictors for machine learning.  We'll then train an xgboost model to predict future season WAR.  We'll measure error and improve the model.
 
-At the end, you'll have a model that can predict future season HRs, along with next steps to improve the model.
+At the end, you'll have a model that can predict future season WAR, along with next steps to improve the model.
 
 **Project Steps**
 
@@ -18,7 +18,7 @@ You can find the code for this project [here](https://github.com/dataquestio/pro
 
 File overview:
 
-* `next_hr.ipynb` - a Jupyter notebook that contains the code to predict next season WAR.
+* `next_war.ipynb` - a Jupyter notebook that contains the code to predict next season WAR.
 
 # Local Setup
 
