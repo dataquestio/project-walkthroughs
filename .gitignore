@@ -49,6 +49,7 @@ priceslive.ipynb
 *live.ipynb
 NBA*Players
 *.pth
+imagesorig
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
