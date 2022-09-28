@@ -24,6 +24,7 @@ File overview:
 * `clean_images.ipynb` - clean the images using PIL.
 * `remove_images.ipynb` - remove any images that don't include a dog.
 * `prediction.ipynb` - train a neural network to predict if a dog is in an image.
+* `settings.py` - has constants that are needed in other files.
 
 # Prerequisites
 
