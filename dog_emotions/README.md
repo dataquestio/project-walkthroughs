@@ -70,5 +70,6 @@ To follow this project, please install the following locally:
 
 We'll download the image data using Flickr.  
 
-* If you don't want to get an API key and download the data, you can find the images [here](https://drive.google.com/file/d/1RZV1Rnix8aIfSVzikBiW09wn9bg20jND/view?usp=sharing).
-* If you don't want to clean the images, and want to jump into deep learning, you can download cleaned images [here](https://drive.google.com/file/d/1VN4TnRaBtajJ7m4FiGCOQCEgbs2bquem/view?usp=sharing).
+* If you don't want to get an API key and download the data, you can find the images [here](https://drive.google.com/uc?export=download&id=1RZV1Rnix8aIfSVzikBiW09wn9bg20jNDg).
+* If you don't want to clean the images, and want to jump into deep learning, you can download cleaned images [here](https://drive.google.com/uc?export=download&id=1VN4TnRaBtajJ7m4FiGCOQCEgbs2bquem).
+* The model with pretrained weights is [here](https://drive.google.com/uc?export=download&id=1p0xE16XMN1JdR653PELaf9SvEXlzQXXn)
