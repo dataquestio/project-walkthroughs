@@ -3,8 +3,8 @@ FL_API_SECRET = ""
 
 IMAGE_DIR = "images"
 MIN_SIZE = 384
-FOLDERS = ["happy", "sad", "relaxed", "angry"]
-VALID_EXTENSIONS = ["jpg", "png", "gif"]
+FOLDERS = ["happy", "sad", "relaxed"]
+VALID_EXTENSIONS = ["jpg", "png", "gif", "jpeg"]
 TARGET_EXTENSION = "jpg"
 
 DEVICE = "mps"
