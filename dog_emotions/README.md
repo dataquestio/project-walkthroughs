@@ -64,6 +64,7 @@ To follow this project, please install the following locally:
     * torch
     * torchvision
     * Pillow
+    * flickrapi
 
 ## Data
 
