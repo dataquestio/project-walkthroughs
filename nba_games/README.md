@@ -57,7 +57,6 @@ To follow this project, please install the following locally:
     * pandas
     * scikit-learn
     * beautifulsoup4
-    * xgboost
     * playwright
 
 ## Data
