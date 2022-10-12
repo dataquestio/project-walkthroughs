@@ -21,6 +21,7 @@ File overview:
 
 * `get_data.ipynb` - download the box scores from basketball reference.
 * `parse_data.ipynb` - clean the data to get a pandas DataFrame.
+* `predict.ipynb` - make predictions using machine learning
 
 # Prerequisites
 
@@ -57,9 +58,11 @@ To follow this project, please install the following locally:
     * scikit-learn
     * beautifulsoup4
     * xgboost
+    * playwright
 
 ## Data
 
 We'll download our dataset from Basketball Reference.  
 
 * You can find the pre-scraped data [here](https://drive.google.com/uc?export=download&id=10uPrEUqhe1uxShKiiZciRJViYqhJcre6) if you don't want to run the code.
+* If you only want to do the second part of this project (prediction), you can download the csv file of box scores [here](https://drive.google.com/uc?export=download&id=1YyNpERG0jqPlpxZvvELaNcMHTiKVpfWe).
