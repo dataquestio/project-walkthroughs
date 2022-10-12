@@ -50,6 +50,7 @@ priceslive.ipynb
 NBA*Players
 *.pth
 imagesorig
+nba_games.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
