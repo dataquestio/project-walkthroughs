@@ -4,3 +4,4 @@ pydantic
 peewee
 transformers
 sentencepiece
+torch
