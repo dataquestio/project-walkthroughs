@@ -64,35 +64,18 @@ During this project, we'll download a pretrained language model.
 
 # Deploying
 
-## Deploy with Azure App Service
-
-### Deploy App
-
-* Create an Azure account.
-* Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
-* Install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
-* Login to Azure with `az login`.
-* `az webapp up --runtime PYTHON:3.9 --sku B1 --logs`
-* Get the resource group name and the app name from the log output.
-* `az webapp config set --resource-group <resource-group-name> --name <app-name> --startup-file "run.sh"`
-
-### Manage App
-
-* View the app using the URL from the logs.
-* Delete the app with `az group delete --name <resource-group-name> --no-wait`
-
 ## Deploy with Docker
 
-Another strategy is to deploy to the cloud using Docker.  To do this, we first need to build a Docker image.  Then we can deploy the image to the cloud.
+One strategy is to deploy to the cloud using Docker.  To do this, we first need to build a Docker image.  Then we can deploy the image to the cloud.
 
 ### Docker image
 
 To build and test a Docker image, run:
 
-* `docker build -t dlapi .` to build the container.  
-    * If you're not running on 64-bit linux, instead run `docker buildx build --platform linux/amd64 -t dlapi .`.  This will build the image using the correct architecture for Azure.
+* `docker build -t dlapi .` to build the container.
+  * If you're not running on 64-bit linux, instead run `docker buildx build --platform linux/amd64 -t dlapi .`.  This will build the image using the correct architecture for Azure.
 * `docker run -d --name dlapi -p 80:80 dlapi` to run the container.
-* `docker ps` to view the container information.  
+* `docker ps` to view the container information.
 * Run `docker logs` to see logs from the container.  You should see `Uvicorn running on http://0.0.0.0:80`.  If you don't see this, wait a bit and try running `docker logs` again.
 * Visit `127.0.0.1` or `localhost` to see the API server.  Visit `localhost/docs` to see API docs.
 * Run `docker stop dlapi` to stop the container.
@@ -101,27 +84,56 @@ To build and test a Docker image, run:
 
 * Run `docker login azure`.  For this to work, you need to have an Azure account.  You can create one [here](https://azure.microsoft.com/en-us/free/search/).
 * Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
-* Click on the subscription in the [list view](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade).
-* Create a resource group from the subscription view.
-* Create a [container registry](https://portal.azure.com/#create/Microsoft.ContainerRegistry).
-* Click into the registry and note the login url.
-* Enable the admin user in the `Access Keys` section and copy the username/password.
+* Run `NAME="<name-here>"` to set the name for your resource group.  Replace `<name-here>` with the name you want.
+* Create a resource group with `az group create --location eastus --name $NAME`
+* Create a container registry with `az acr create --resource-group myResourceGroup --name $NAME --sku Basic`
+* Note the `loginServer` in the response.
+* Login to the registry with `az acr login --name $NAME`
 
 ### Push image to Azure
 
-* Run `docker tag dlapi walkthroughs.azurecr.io/dlapi`.  Replace `walkthroughs.azurecr.io` with your container registry login url.
-* Login to the registry - `docker login walkthroughs.azurecr.io`
-* Push the image to the registry with `docker push walkthroughs.azurecr.io/dlapi`.
+* Run `docker tag dlapi $NAME.azurecr.io/dlapi`.  Replace `$NAME.azurecr.io` with your container registry login url.
+* Login to the registry - `docker login $NAME.azurecr.io`
+* Push the image to the registry with `docker push $NAME.azurecr.io/dlapi`.
 
-### Run image on Azure
+### Run container on Azure
 
 * Create an aci context with `docker context create aci azure`.  Select the resource group to use with your context.
 * Run `docker context ls` to view your contexts.
 * Switch context with `docker context use azure`
-* Run the container with `docker run --name dlapi -p 80:80 walkthroughs.azurecr.io/dlapi`
-* Run `docker ps` to get the URL of the container.
+* Run the container with `docker run --name dlapi -p 80:80 -m 1.5G $NAME.azurecr.io/dlapi`
+* Run `docker ps` to get the URL of the container.  You should be able to visit the URL.
 
-### Remove image
+### Remove container
 
 * Run `docker stop dlapi`
 * Run `docker rm dlapi`
+* Delete the resource group with `az group delete --name $NAME --no-wait`
+
+## Deploy with Azure App Service
+
+Another strategy is to deploy with Azure App Service.
+
+### Deploy App
+
+* Create an Azure account.
+* Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
+* Install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
+* Login to Azure with `az login`.
+* `NAME="dlapi3"`
+* Create a resource group with `az group create --location eastus --name $NAME`
+* Create a plan with `az appservice plan create --name $NAME --resource-group $NAME --sku B2`
+* Create app with `az webapp create --name $NAME --resource-group $NAME --plan $NAME --runtime PYTHON:3.9`
+* `az webapp up --runtime PYTHON:3.9 --sku B2 --logs`
+* Get the resource group name and the app name from the log output.
+* `az webapp config appsettings set --resource-group $NAME --name $NAME --settings SCM_DO_BUILD_DURING_DEPLOYMENT=true  POST_BUILD_COMMAND="build.sh" WEBSITE_MEMORY_LIMIT_MB=3500`
+* `az webapp config set --resource-group $NAME --name $NAME --startup-file "run.sh"`
+* `zip -r app.zip . -x translations.db app.zip __pycache__/*`
+* `az webapp deploy --resource-group $NAME --name $NAME --src-path app.zip`
+* `az webapp restart --resource-group $NAME --name $NAME`
+
+### Manage App
+
+* View the app using the URL from the logs.
+* Delete the app with `az group delete --name $NAME --no-wait`
+

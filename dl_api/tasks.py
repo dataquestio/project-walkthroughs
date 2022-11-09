@@ -1,9 +1,9 @@
 from models import TranslationModel
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-# Use t5-base or t5-small for a smaller download size
-tokenizer = T5Tokenizer.from_pretrained("t5-large", model_max_length=512)
-translator = T5ForConditionalGeneration.from_pretrained("t5-large")
+# Use t5-base or t5-small for a smaller download size, t5-large for more accuracy
+tokenizer = T5Tokenizer.from_pretrained("t5-small", model_max_length=512)
+translator = T5ForConditionalGeneration.from_pretrained("t5-small")
 
 
 def store_translation(t):
