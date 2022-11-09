@@ -86,14 +86,13 @@ To build and test a Docker image, run:
 * Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
 * Run `NAME="<name-here>"` to set the name for your resource group.  Replace `<name-here>` with the name you want.
 * Create a resource group with `az group create --location eastus --name $NAME`
-* Create a container registry with `az acr create --resource-group myResourceGroup --name $NAME --sku Basic`
+* Create a container registry with `az acr create --resource-group $NAME --name $NAME --sku Basic`
 * Note the `loginServer` in the response.
-* Login to the registry with `az acr login --name $NAME`
+* Login to the registry with `az acr login --resource-group $NAME --name $NAME`
 
 ### Push image to Azure
 
 * Run `docker tag dlapi $NAME.azurecr.io/dlapi`.  Replace `$NAME.azurecr.io` with your container registry login url.
-* Login to the registry - `docker login $NAME.azurecr.io`
 * Push the image to the registry with `docker push $NAME.azurecr.io/dlapi`.
 
 ### Run container on Azure
@@ -102,7 +101,7 @@ To build and test a Docker image, run:
 * Run `docker context ls` to view your contexts.
 * Switch context with `docker context use azure`
 * Run the container with `docker run --name dlapi -p 80:80 -m 1.5G $NAME.azurecr.io/dlapi`
-* Run `docker ps` to get the URL of the container.  You should be able to visit the URL.
+* Run `docker ps` to get the URL of the container.  You should be able to visit the URL shown to use the API.
 
 ### Remove container
 
@@ -120,7 +119,7 @@ Another strategy is to deploy with Azure App Service.
 * Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
 * Install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
 * Login to Azure with `az login`.
-* `NAME="dlapi3"`
+* `NAME="dlapi"`
 * Create a resource group with `az group create --location eastus --name $NAME`
 * Create a plan with `az appservice plan create --name $NAME --resource-group $NAME --sku B2`
 * Create app with `az webapp create --name $NAME --resource-group $NAME --plan $NAME --runtime PYTHON:3.9`
