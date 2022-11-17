@@ -82,21 +82,23 @@ To build and test a Docker image, run:
 
 ### Azure setup
 
-* Run `docker login azure`.  For this to work, you need to have an Azure account.  You can create one [here](https://azure.microsoft.com/en-us/free/search/).
+* Create an Azure account.  You can create one [here](https://azure.microsoft.com/en-us/free/search/).
 * Create an [Azure subscription](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade) if you don't have one.  You can sign up for the [free tier](https://azure.microsoft.com/en-us/free/).
+* Install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/).
 * Run `NAME="<name-here>"` to set the name for your resource group.  Replace `<name-here>` with the name you want.
 * Create a resource group with `az group create --location eastus --name $NAME`
-* Create a container registry with `az acr create --resource-group $NAME --name $NAME --sku Basic`
-* Note the `loginServer` in the response.
-* Login to the registry with `az acr login --resource-group $NAME --name $NAME`
 
 ### Push image to Azure
 
+* Create a container registry with `az acr create --resource-group $NAME --name $NAME --sku Basic`
+* Note the `loginServer` in the response.
+* Login to the registry with `az acr login --resource-group $NAME --name $NAME`
 * Run `docker tag dlapi $NAME.azurecr.io/dlapi`.  Replace `$NAME.azurecr.io` with your container registry login url.
 * Push the image to the registry with `docker push $NAME.azurecr.io/dlapi`.
 
 ### Run container on Azure
 
+* Run `docker login azure` to log Docker into Azure.
 * Create an aci context with `docker context create aci azure`.  Select the resource group to use with your context.
 * Run `docker context ls` to view your contexts.
 * Switch context with `docker context use azure`
