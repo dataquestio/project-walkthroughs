@@ -1,6 +1,6 @@
 # Project Overview
 
-In this project, we'll predict the weather using the Facebook prophet library.  The advantage of prophet is that it automatically identifies seasonality in the data - and weather data has strong seasonal effects.  It can also scale to multiple time series (think data from adjacent weather stations) easily.
+In this project, we'll predict the weather using the Facebook prophet library.  The advantage of prophet is that it automatically identifies seasonality in the data - and weather data has strong seasonal effects.  So without any feature engineering, you can get good baseline accuracy.  It can also scale to multiple time series (think data from adjacent weather stations) easily.
 
 By the end, we'll have a model that predicts the weather, and can be extended.
 
