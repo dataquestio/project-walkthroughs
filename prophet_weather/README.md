@@ -54,7 +54,9 @@ To follow this project, please install the following locally:
 
 ## Data
 
-You can find the data for this project in the `weather.csv` file.  If you want to download data for your area, you can follow these instructions:
+You can find the data for this project in the `weather.csv` file.  You can download the file [here](https://raw.githubusercontent.com/dataquestio/project-walkthroughs/master/prophet_weather/weather.csv).  Just click file -> save as in your browser to save the file.
+
+If you want to download different data for your area, you can follow these instructions:
 
 1. Go to [NOAA](https://www.ncdc.noaa.gov/cdo-web/search)
 2. Enter the years you want data for (I recommend starting with 1970), and search for the closest airport to you
