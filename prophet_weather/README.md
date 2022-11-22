@@ -53,4 +53,22 @@ To follow this project, please install the following locally:
 
 ## Data
 
-You can find the data for this project in the `weather.csv` file.
+You can find the data for this project in the `weather.csv` file.  If you want to download data for your area, you can follow these instructions:
+
+1. Go to [NOAA](https://www.ncdc.noaa.gov/cdo-web/search)
+2. Enter the years you want data for (I recommend starting with 1970), and search for the closest airport to you
+    * ![download_1](imgs/download_1.png)
+3. Click add to cart on the airport you want
+    * If there is no airport near you, try your city or country name instead
+    * ![download_2](imgs/download_2.png)
+4. Search for additional airports or cities and select them if you want additional data sources 
+5. Go to the cart at https://www.ncdc.noaa.gov/cdo-web/cart
+6. Select the csv format and click continue
+    * ![download_3](imgs/download_3.png)
+7. Select all of the checkboxes for data types
+    * ![download_4](imgs/download_4.png)
+8. Enter your email and click continue
+    * ![download_5](imgs/download_5.png)
+9. You'll get an email with a link to download the data
+    * ![download_6](imgs/download_6.png)
+10. Make sure to take a look at the [data documentation](https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf) as well
