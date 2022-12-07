@@ -1,0 +1,7 @@
+transformers
+torch
+jupyterlab
+pandas
+scikit-learn
+jax
+jaxlib

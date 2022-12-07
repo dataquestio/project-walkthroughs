@@ -1,5 +1,3 @@
 pandas
 prophet
-tqdm
 plotly
-scikit-learn
