@@ -18,6 +18,8 @@ def search_api(query, pages=int(RESULT_COUNT/10)):
         )
         response = requests.get(url)
         data = response.json()
+        if (data['searchInformation']['totalResults']) == '0':
+            continue
         results += data["items"]
     res_df = pd.DataFrame.from_dict(results)
     res_df["rank"] = list(range(1, res_df.shape[0] + 1))
