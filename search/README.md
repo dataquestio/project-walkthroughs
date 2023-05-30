@@ -36,7 +36,7 @@ To follow this project, please install the following locally:
 
 ### Other setup
 
-You will need to create a programmable search engine and get an API key by following [these directions](https://developers.google.com/custom-search/v1/introduction).  You will need a Google account, and as part of this you may also need to sign up for Google Cloud.
+You will need to create a programmable search engine and get an API key by following [these directions](https://developers.google.com/custom-search/v1/introduction).  You will need a Google account, and as part of this you may also need to sign up for Google Cloud
 
 ### Other files
 
